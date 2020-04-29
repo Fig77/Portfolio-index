@@ -549,7 +549,18 @@
 
   .col-end-sm-12 {
     grid-column-start: 12; } }
+/* flex */
 .d-flex {
   display: flex; }
+
+.flex-column {
+  flex-direction: column; }
+
+.flex-center {
+  justify-content: center;
+  align-items: center; }
+
+.justify-c-center {
+  justify-content: center; }
 
 /*# sourceMappingURL=grid.css.map */

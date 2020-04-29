@@ -1,6 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Muli', sans-serif;
   font-size: 1em;
+}
+
+.text-150{
+  font-size: 70%;
 }
 
 h1 {
@@ -17,8 +24,6 @@ h1 {
 }
 .hero-h {
   height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
 .hero-h1 {
@@ -85,6 +90,7 @@ h1 {
   text-decoration:none;
   animation: fadeIn 3.57s;
   transition: transform 0.5s;
+  transition-delay: 0.3s;
 }
 
 .link-see-more:hover {
@@ -99,4 +105,33 @@ h1 {
   to {
     opacity: 100%;
   }
+}
+
+/* Main Element */
+
+.main-content {
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.h1-main {
+  margin-top: 1.5em;
+  margin-bottom: 1.1em;
+  color: deeppink;
+}
+
+.project-div {
+  background: linear-gradient(to bottom,
+    #e5e5e7,
+    #e8e8e8 60%);
+  height: 480px;
+  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.1);
+}
+
+.project-div-h2 {
+  margin-top: 1em;
+  background: #fafafa;
+  color: deeppink;
+  font-size: 200%;
+  padding: 0.2em;
 }
