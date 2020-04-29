@@ -77,6 +77,7 @@ h1 {
 }
 
 .link-see-more {
+  display: inline-block;
   color: #fafafa;
   font-size: 285%;
   position: relative;
