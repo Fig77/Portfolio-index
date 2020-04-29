@@ -1,12 +1,17 @@
 body {
   font-family: 'Muli', sans-serif;
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 255%;
 }
 
 .green-bg-light {
   background-color: #76ff03;
   background-image:linear-gradient(
       to bottom,
-      #64dd17 45%,
+      #64dd17 55%,
       #76ff03
     );
 }
@@ -44,9 +49,9 @@ body {
   color: #fafafa;
   font-family: Muli;
   overflow: hidden;
-  border-right: .15em solid #fafafa;
+  border-right: .10em solid #fafafa;
   white-space: nowrap;
-  letter-spacing: .15em;
+  letter-spacing: .10em;
   animation:
     typing 1.5s steps(30, end),
     blink-caret .5s step-end infinite;
@@ -68,5 +73,29 @@ body {
   }
   50% {
     border-color: #fafafa
+  }
+}
+
+.link-see-more {
+  color: #fafafa;
+  font-size: 285%;
+  position: relative;
+  left: 5em;
+  text-decoration:none;
+  animation: fadeIn 3.57s;
+  transition: transform 1s;
+}
+
+.link-see-more:hover {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 100%;
   }
 }
