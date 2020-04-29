@@ -84,7 +84,7 @@ h1 {
   left: 5em;
   text-decoration:none;
   animation: fadeIn 3.57s;
-  transition: transform 1s;
+  transition: transform 0.5s;
 }
 
 .link-see-more:hover {
