@@ -8,6 +8,10 @@
   grid-column: span 12;
 }
 
+.col-place-center {
+  place-self: center;
+}
+
 @for $i from 1 through 12 {
   .col-#{$i} {
     grid-column: span #{$i}
@@ -87,4 +91,8 @@
       grid-column-start: #{$i};
     }
   }
+}
+
+.d-flex {
+  display: flex;
 }

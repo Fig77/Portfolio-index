@@ -1,0 +1,72 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.green-bg-light {
+  background-color: #76ff03;
+  background-image:linear-gradient(
+      to bottom,
+      #64dd17 45%,
+      #76ff03
+    );
+}
+.hero-h {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-h1 {
+  color: #fff;
+  font-weight: bold;
+  font-family: Muli;
+  font-weight: 800;
+  margin: 0;
+  display: inline-block;
+}
+
+.hero-h1::before {
+  display: inline;
+  content: '$';
+  color: #fff;
+  font-weight: 800;
+}
+
+.hero-h1::after {
+  display: inline;
+  content: '<h1>';
+  color: #fff;
+  font-weight: 800;
+}
+
+.write-header-h1 {
+  height: 1.5em;
+  color: #fafafa;
+  font-family: Muli;
+  overflow: hidden;
+  border-right: .15em solid #fafafa;
+  white-space: nowrap;
+  letter-spacing: .15em;
+  animation:
+    typing 1.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent
+  }
+  50% {
+    border-color: #fafafa
+  }
+}
