@@ -1,21 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel='stylesheet' type='text/css' href='css/reset.css'>
-    <link rel='stylesheet' type='text/css' href='css/grid.css'>
-    <link rel='stylesheet' type='text/css' href='css/main.css'>
-    <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet"> 
-  </head>
-  <body>
-    <header class='grid-template'>
-      <div class='hero-h green-bg-light row d-flex flex-center'>
-        <div>
-          <h1 class='place-self write-header-h1 header-h1'>$&nbsp Hi! I write code &nbsp</h1>
-          <a href='#main' class='link-see-more place-self'>&#10095;</a>
-        </div>
+
+<head>
+  <link rel='stylesheet' type='text/css' href='css/reset.css'>
+  <link rel='stylesheet' type='text/css' href='css/grid.css'>
+  <link rel='stylesheet' type='text/css' href='css/main.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,200;1,300;1,400;1,500;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class='grid-template'>
+    <div class='hero-h green-bg-light row d-flex flex-center'>
+      <div>
+        <h1 class='place-self write-header-h1 header-h1'>$&nbsp Hi! I write code &nbsp</h1>
+        <a href='#about' class='link-see-more place-self'>&#10095;</a>
       </div>
-    </header>
-    <main class='grid-template main-content' id='main'>
+    </div>
+  </header>
+  <main>
+    <section id='about' class='grid-template about-me main-content'>
+      <h1 class='row d-flex h1-main justify-c-center'>About me &nbsp!</h1>
+      <div class='content-about col-6'></div>
+      <div class='content-about col-6'>
+        <p class='parag-about'>Hello there! I'm a software developer and proud owner of an albhaca plant.</p>
+      </div>
+    </section>
+    <section class='grid-template main-content' id='main'>
       <h1 class='row d-flex h1-main justify-c-center'>See my work &nbsp!</h1>
       <div class='row grid-template'>
         <div class='project-div col-4 col-md-6 col-sm-12 d-flex flex-column place-self'>
@@ -31,6 +41,9 @@
           <div></div>
         </div>
       </div>
-    </main>
-  </body>
+    </section>
+  </main>
+
+</body>
+
 </html>
