@@ -2,12 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Muli', 'Montserrat', sans-serif;
   font-size: 1em;
 }
 
 .text-150{
   font-size: 70%;
+}
+
+.m-0-t {
+  margin-top: 0 !important;
 }
 
 h1 {
@@ -124,6 +128,7 @@ h1 {
 }
 
 .li-about {
+  font-family: 'Montserrat', 'Muli';
   margin: 2em;
   color: deeppink;
   font-size: 2vw;
@@ -174,8 +179,8 @@ h1 {
 
 .project-div {
   background: linear-gradient(to bottom,
-    #e5e5e7,
-    #e8e8e8 60%);
+    #64dd17,
+    #76ff03 60%);
   height: 480px;
   box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.1);
 }
