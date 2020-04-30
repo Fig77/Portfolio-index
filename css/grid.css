@@ -548,7 +548,10 @@
     grid-column-start: 12; }
 
   .col-end-sm-12 {
-    grid-column-start: 12; } }
+    grid-column-start: 12; }
+
+  .hide-sm {
+    display: none; } }
 /* flex */
 .d-flex {
   display: flex; }

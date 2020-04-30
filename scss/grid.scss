@@ -91,6 +91,9 @@
       grid-column-start: #{$i};
     }
   }
+  .hide-sm {
+    display: none;
+  }
 }
 
 /* flex */
