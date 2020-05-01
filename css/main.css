@@ -1,12 +1,22 @@
 html {
   scroll-behavior: smooth;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: none;
 }
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+main {}
+
 body {
   font-family: 'Muli', 'Montserrat', sans-serif;
   font-size: 1em;
 }
 
-.text-150{
+.text-150 {
   font-size: 70%;
 }
 
@@ -20,15 +30,12 @@ h1 {
 
 .green-bg-light {
   background-color: #76ff03;
-  background-image:linear-gradient(
-      to bottom,
+  background-image: linear-gradient(to bottom,
       #64dd17 15%,
-      #76ff03
-    );
+      #76ff03);
 }
-.hero-h {
-  height: 100vh;
-}
+
+
 
 .hero-h1 {
   color: #fff;
@@ -36,7 +43,7 @@ h1 {
   font-family: Muli;
   font-weight: 800;
   margin: 0;
-  display:table;
+  display: table;
 }
 
 .hero-h1::before {
@@ -55,10 +62,10 @@ h1 {
 
 .write-header-h1 {
   height: 1.5em;
-  color: #fafafa;
+  color: #212121;
   font-family: Muli;
   overflow: hidden;
-  border-right: .10em solid #fafafa;
+  border-right: .10em solid #212121;
   white-space: nowrap;
   letter-spacing: .10em;
   animation:
@@ -70,47 +77,46 @@ h1 {
   from {
     width: 0
   }
+
   to {
     width: 100%;
   }
 }
 
 @keyframes blink-caret {
+
   from,
   to {
     border-color: transparent
   }
+
   50% {
-    border-color: #fafafa
+    border-color: #212121
   }
 }
 
 .link-see-more {
   display: inline-block;
-  color: #fafafa;
+  color: #212121;
   font-size: 285%;
   position: relative;
   left: 5em;
-  text-decoration:none;
+  text-decoration: none;
   animation: fadeIn 3.57s;
   transition: transform 0.5s;
-
 }
 
 .link-see-more:hover {
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-   color: deeppink;
+  color: deeppink;
 }
 
 @keyframes fadeIn {
   from {
     opacity: 0
-    
   }
+
   to {
     opacity: 100%;
-   
   }
 }
 
@@ -134,28 +140,26 @@ h1 {
   font-size: 2vw;
 }
 
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .li-about {
     font-size: 2.8vw;
   }
 }
 
-.content-about {
-  height: 550px;
-}
+
 
 .side-about {
   background-color: coral;
 }
 
 .icon-contact {
-  width: 33%; 
-  height: 33%; 
+  width: 33%;
+  height: 33%;
   fill: #212121;
 }
 
 .h2-side-about {
-  font-size: 3em;
+  font-size: 2.5em;
   background-color: #212121;
   padding-left: 0.4em;
   padding-top: 0.5em;
@@ -163,13 +167,7 @@ h1 {
 
 /* Main Element */
 
-.main-content {
-  background-color: #fafafa;
-  height: 100vh;
-  position: relative;
-  left: 2.5%;
-  width: 95%;
-}
+.main-content {}
 
 .h1-main {
   margin-top: 1.5em;
@@ -179,32 +177,244 @@ h1 {
 
 .project-div {
   background: linear-gradient(to bottom,
-    #64dd17,
-    #76ff03 60%);
+      #64dd17,
+      #76ff03 60%);
   height: 480px;
-  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.1);
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
 }
 
 .project-div-h2 {
   margin-top: 1em;
-  background: #fafafa;
+  background: #212121;
   color: deeppink;
   font-size: 200%;
   padding: 0.2em;
   display: inline-block;
 }
 
-
-
 /* small content */
 
 .small-content {
   height: 25vh;
   background-color: coral;
-  background-image:linear-gradient(
-    to bottom,
-    #64dd17,
-    #76ff03 75%
-  );
-  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.2);
+  background-image: linear-gradient(to bottom,
+      #64dd17,
+      #76ff03 75%);
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Drop down css with animation on active testing */
+
+.drop-me-link {
+  color: #76ff03;
+}
+
+.drop-me-link:active {}
+
+.hide {
+  height: 0;
+}
+
+/* body 2 test */
+
+.subtle-nav-bar {
+  position: fixed;
+  top: 1vw;
+  background: none;
+  margin-left: 1em;
+}
+
+.subtle-nav-bar > li {
+  animation: fadeIn 6s;
+  margin: 0;
+  font-size: 1.1em;
+  margin-left: 1.3em;
+  color: #212121;
+}
+
+.subtle-nav-bar > li > a:hover {
+  color: deeppink;
+}
+
+.subtle-nav-bar > li > span {
+  color: deeppink;
+}
+
+.content-about {
+  height: 100vh;
+  width: 100vw;
+  background-color: deeppink;
+}
+
+.hero-h {
+  height: 100vh;
+  width: 100vw;
+  float: left;
+}
+
+#link-projects:target ~ .subtle-nav-bar > li {
+  color: #212121;
+}
+
+/*slide*/
+
+.slide-container {}
+
+.main-content {
+  width: 300vw;
+  height: 100vh;
+}
+
+.content-projects {
+  grid-gap: 0;
+}
+
+.featured {
+  background-color: #ffc100;
+  height: 100vh;
+  grid-row: span 2;
+}
+
+.project {
+  background-color: #FF6347;
+  height: 50vh;
+}
+
+.display-project {
+  background: url("../images/placeholder-1.png") no-repeat;
+  background-size: 80% 60%;
+  object-fit: cover;
+  background-position: center;
+  height: 100%;
+}
+
+
+@media (max-width: 576px) {
+  .featured {
+    background-color: #ffc100;
+    height: 33vh;
+  }
+
+  .project {
+    background-color: #FF6347;
+    height: 33vh;
+  }
+
+  .display-project {
+    background-size: 60% 60%;
+    object-fit: cover;
+    background-position: center;
+    height: 100%;
+  }
+}
+
+
+.smallt {
+  font-size: 0.8em;
+}
+
+
+.project-2 {
+  background: url("../images/placeholder-2.png") no-repeat;
+  background-size: 70% 60%;
+  object-fit: cover;
+  background-position: 20% 10%;
+}
+
+.proj-3 {
+  background-color: #f48130;
+}
+
+.project-3 {
+  background-color: #f4a230;
+  background: url("../images/Untitled-2.png") no-repeat;
+  background-size: 73% 60%;
+  object-fit: cover;
+  background-position: 20% 10%;
+}
+
+.subtle-contact-bar {
+  position: absolute;
+  color: #212121;
+  font-size: 1.5em;
+  bottom: 5%;
+  left: 41%;
+  animation: fadeIn 8s;
+}
+
+.subtle-contact-bar > li {
+
+  margin-right: 1.5em;
+}
+
+.project-text-container {
+  color: #212121;
+  position: relative;
+  bottom: 2%;
+  left: 2%;
+  font-size: 1.8em;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.link-display {
+  font-size: 0.7em;
+  color: deeppink;
+}
+
+.contact-icons {
+  height: 3vw;
+  widows: 3vw;
+  fill: #212121;
+}
+
+.contact-icons:hover {
+  fill: deeppink;
+}
+
+.write-header-h2 {
+  margin-left: 2%;
+  margin-top: 5%;
+  font-weight: bolder;
+  height: 2em;
+  color: #212121;
+  font-family: Muli;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: .10em;
+}
+
+.text-focus-in {
+  
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
 }

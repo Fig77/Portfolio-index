@@ -91,6 +91,7 @@
       grid-column-start: #{$i};
     }
   }
+
   .hide-sm {
     display: none;
   }
@@ -117,4 +118,8 @@
 
 .align-i-center {
   align-items: center;
+}
+
+.flex-rev-column {
+  flex-direction: column-reverse;
 }

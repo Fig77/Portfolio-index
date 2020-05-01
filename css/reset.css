@@ -46,3 +46,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+a {
+  color: #212121;
+  text-decoration: none;
+}
+
+a:link {
+  color: #212121;
+  text-decoration: none;
+}
+
+a:active {
+  color: #212121;
+}
