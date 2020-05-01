@@ -341,10 +341,10 @@ h1 {
 }
 
 .subtle-contact-bar {
-  position: absolute;
+  position: relative;
   color: #212121;
   font-size: 1.5em;
-  bottom: 5%;
+  top: 25%;
 
   animation: fadeIn 8s;
 }
