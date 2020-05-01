@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  position: fixed;
+}
+
 html::-webkit-scrollbar {
   display: none;
 }
