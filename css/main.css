@@ -243,7 +243,7 @@ h1 {
 .content-about {
   height: 100vh;
   width: 100vw;
-  background-color: deeppink;
+  background-color: lightgoldenrodyellow;
 }
 
 .hero-h {
@@ -261,7 +261,7 @@ h1 {
 .slide-container {}
 
 .main-content {
-  width: 300vw;
+  width: 200vw;
   height: 100vh;
 }
 
@@ -338,7 +338,7 @@ h1 {
   color: #212121;
   font-size: 1.5em;
   bottom: 5%;
-  left: 41%;
+
   animation: fadeIn 8s;
 }
 
@@ -350,7 +350,7 @@ h1 {
 .project-text-container {
   color: #212121;
   position: relative;
-  bottom: 2%;
+  bottom: 3%;
   left: 2%;
   font-size: 1.8em;
   padding-right: 1%;
@@ -416,5 +416,16 @@ h1 {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+  .contact-icons {
+    width: 9vw;
+    height: 9vh;
+    
   }
 }
