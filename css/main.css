@@ -11,6 +11,7 @@ body {
   overflow-x: hidden;
 }
 
+
 html {
   position: fixed;
 }
@@ -47,6 +48,32 @@ h1 {
 }
 
 .about {}
+
+.lib-info {
+  height: 0;
+}
+
+.ul-about > li > p {
+  display: none;
+  font-family: 'Montserrat';
+  font-size: 55%;
+  padding: 1%;
+  padding-top: 2%;
+  font-weight: 500;
+  word-spacing: 0.1em;
+  margin-top: 3%;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-color: deeppink;
+}
+
+#checkbox_toggle, #checkbox_toggle_2 {
+  display: none;
+}
+
+#checkbox_toggle:checked ~ #p-me {
+ display: block;
+}
 
 .ul-about {
   grid-row-start: 2;
@@ -92,7 +119,7 @@ h1 {
 }
 
 .article-title {
-  background-color: rgba(250, 250, 250, 0.8);
+  background-color: rgba(255, 255, 255, 0.9);
   font-size: 170%;
 }
 
@@ -135,6 +162,629 @@ color: #fafafa;
   padding: 0.1em;
   color: deeppink;
   transform: rotate(90deg);
+  float: right;
+  cursor: pointer;
+}
+
+.li-about-section {
+  font-size: 180%;
+  padding: 2.5%;
+  border-bottom-style: solid;
+  border-bottom-color: deeppink;
+  border-width: thin;
+}
+
+.hero-h1 {
+  color: #fff;
+  font-weight: bold;
+  font-family: Muli;
+  font-weight: 800;
+  margin: 0;
+  display: table;
+}
+
+.hero-h1::before {
+  display: inline;
+  content: '$';
+  color: #fff;
+  font-weight: 800;
+}
+
+.hero-h1::after {
+  display: inline;
+  content: '<h1>';
+  color: #fff;
+  font-weight: 800;
+}
+
+.write-header-h1 {
+  height: 1.5em;
+  color: #212121;
+  font-family: Muli;
+  overflow: hidden;
+  border-right: .10em solid #212121;
+  white-space: nowrap;
+  letter-spacing: .10em;
+  animation:
+    typing 1.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: #212121
+  }
+}
+
+.link-see-more {
+  display: inline-block;
+  color: #212121;
+  font-size: 285%;
+  position: relative;
+  left: 5em;
+  text-decoration: none;
+  animation: fadeIn 3.57s;
+  transition: transform 0.5s;
+}
+
+.link-see-more:hover {
+  color: deeppink;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
+
+/* About me */
+
+.about-me {
+  border-bottom-style: solid;
+  border-width: medium;
+  color: #e4e4e4;
+  margin-left: 0;
+}
+
+.about-me > h1 {
+  margin-bottom: 0;
+}
+
+.li-about {
+  font-family: 'Montserrat', 'Muli';
+  margin: 2em;
+  color: deeppink;
+  font-size: 2vw;
+}
+
+@media (max-width: 991px) {
+  .li-about {
+    font-size: 2.8vw;
+  }
+}
+
+
+.side-about {
+  background-color: coral;
+}
+
+.icon-contact {
+  width: 33%;
+  height: 33%;
+  fill: #212121;
+}
+
+.h2-side-about {
+  font-size: 2.5em;
+  background-color: #212121;
+  padding-left: 0.4em;
+  padding-top: 0.5em;
+}
+
+/* Main Element */
+
+.main-content {}
+
+.h1-main {
+  margin-top: 1.5em;
+  margin-bottom: 1.1em;
+  color: deeppink;
+}
+
+.project-div {
+  background: linear-gradient(to bottom,
+      #64dd17,
+      #76ff03 60%);
+  height: 480px;
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.project-div-h2 {
+  margin-top: 1em;
+  background: #212121;
+  color: deeppink;
+  font-size: 200%;
+  padding: 0.2em;
+  display: inline-block;
+}
+
+/* small content */
+
+.small-content {
+  height: 25vh;
+  background-color: coral;
+  background-image: linear-gradient(to bottom,
+      #64dd17,
+      #76ff03 75%);
+  box-shadow: 10px 10px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* Drop down css with animation on active testing */
+
+.drop-me-link {
+  color: #76ff03;
+}
+
+.drop-me-link:active {}
+
+.hide {
+  height: 0;
+}
+
+#project-2 > .display-project {
+  background: url("../images/Untitled-2.png") no-repeat;
+}
+
+/* body 2 test */
+
+.subtle-nav-bar {
+  position: fixed;
+  top: 1vw;
+  background: none;
+  margin-left: 1em;
+}
+
+.subtle-nav-bar > li {
+  animation: fadeIn 6s;
+  margin: 0;
+  font-size: 1.1em;
+  margin-left: 1.3em;
+  color: #212121;
+}
+
+.subtle-nav-bar > li > a:hover {
+  color: deeppink;
+}
+
+.subtle-nav-bar > li > span {
+  color: deeppink;
+}
+
+.content-about {
+  height: 100vh;
+  width: 100vw;
+  background-color: lightgoldenrodyellow;
+}
+
+.hero-h {
+  height: 100vh;
+  width: 100vw;
+  float: left;
+}
+
+#link-projects:target ~ .subtle-nav-bar > li {
+  color: #212121;
+}
+
+/*slide*/
+
+.slide-container {}
+
+.main-content {
+  width: 500vw;
+  height: 100vh;
+}
+
+.content-projects {
+  grid-gap: 0;
+  height: 100vh;
+}
+
+.featured {
+  background-color: #fafafa;
+  height: 100vh;
+  grid-row: span 2;
+}
+
+.project {
+  background-color: #fafafa;
+  height: 50vh;
+}
+
+.display-project {
+  background: url("../images/placeholder-1.png") no-repeat;
+  background-size: 80% 70%;
+  object-fit: cover;
+  background-position: center;
+  height: 100%;
+}
+
+
+@media (max-width: 576px) {
+  .featured {
+    background-color: #fafafa;
+    height: 33vh;
+  }
+
+  .project {
+    background-color: #fafafa;
+    height: 33vh;
+  }
+
+  .display-project {
+    background-size: 60% 60%;
+    object-fit: cover;
+    background-position: center;
+    height: 100%;
+  }
+}
+
+
+.smallt {
+  font-size: 0.8em;
+}
+
+
+
+.proj-3 {
+  background-color: #f2f2f2;
+}
+
+.project-3 {
+  background-color: #f2f2f2;
+  background: url("../images/Untitled-2.png") no-repeat;
+  background-size: 85% 60%;
+  object-fit: cover;
+  background-position: 20% 10%;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #bdbdbd;
+  padding-left: 0.3em;
+}
+
+.subtle-contact-bar {
+  position: relative;
+  color: #212121;
+  font-size: 1.5em;
+  top: 25%;
+
+  animation: fadeIn 8s;
+}
+
+.subtle-contact-bar > li {
+
+  margin-right: 1.5em;
+}
+
+.div-arrow {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-project {
+  font-size: 3em;
+  transition-duration: 0.7s;
+}
+
+.link-project:hover {
+  color: deeppink;
+}
+
+.project-text-container {
+  color: #212121;
+  position: relative;
+  bottom: 3%;
+  left: 2%;
+  font-size: 1.8em;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+.link-display {
+  font-size: 0.7em;
+  color: deeppink;
+}
+
+.contact-icons {
+  height: 3vw;
+  widows: 3vw;
+  fill: #212121;
+}
+
+.contact-icons:hover {
+  fill: deeppink;
+}
+
+.write-header-h2 {
+  margin-left: 2%;
+  margin-top: 5%;
+  font-weight: bolder;
+  height: 2em;
+  color: #212121;
+  font-family: Muli;
+  overflow: hidden;
+  white-space: nowrap;
+  letter-spacing: .10em;
+}
+
+.text-focus-in {
+  -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 992px) {
+  .featured {
+    background-color: #fafafa;
+    height: 33vh;
+
+  }
+
+  .display-project {
+    background-size: 43% 90%;
+    background-position: center;
+  }
+
+  .project-text-container > p {
+    background-color: #fafafa;
+    opacity: 0.7;
+  }
+
+
+  .project {
+    background-color: #fafafa;
+    height: 33vh;
+  }
+
+}
+
+@media (max-width: 656px) {
+  body {
+    font-size: 15px;
+  }
+
+  .subtle-nav-bar > li {
+    font-size: 0.9em;
+  }
+
+  .contact-icons {
+    width: 9vw;
+    height: 9vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .subtle-nav-bar > li {
+    font-size: 0.9em;
+  }
+
+  .feature {
+    grid-row: span 1;
+  }
+}
+
+
+
+@media (max-width: 564px) {
+  .project-text-container > p {
+    background: #fafafa;
+    opacity: 0.3;
+    transition-duration: 1s;
+  }
+
+  .display-project {
+    background-size: 70% 84%;
+    background-position: bottom;
+  }
+
+  .project-text-container > p:hover {
+    opacity: 1;
+  }
+}html,
+body {
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  scrollbar-width: none;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+
+html {
+  position: fixed;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+main {}
+
+body {
+  font-family: 'Muli', 'Montserrat', sans-serif;
+  font-size: 1em;
+  widows: 100vh;
+}
+
+.text-150 {
+  font-size: 70%;
+}
+
+.m-0-t {
+  margin-top: 0 !important;
+}
+
+h1 {
+  font-size: 255%;
+}
+
+.green-bg-light {
+  background-color: #76ff03;
+  background-image: linear-gradient(to bottom,
+      #fafafa 15%,
+      #fafafa);
+}
+
+.about {}
+
+
+
+.ul-about {
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+.lib-info {
+  height: 0;
+}
+
+.image-article {
+  background: url('https://hackernoon.com/drafts/sf5v2kff.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2%;
+  height: 40vh;
+  width: 90%;
+  margin-bottom: 2%;
+  position: relative;
+  font-size: 110%;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e1e1e1;
+  -webkit-box-shadow: -8px 9px 18px -5px rgba(33, 33, 33, 0.4);
+  -moz-box-shadow: -8px 9px 18px -5px rgba(33, 33, 33, 0.4);
+  box-shadow: -8px 9px 18px -5px rgba(33, 33, 33, 0.4);
+}
+
+.p-article {
+  position: absolute;
+  bottom: 0;
+  background: #fafafa;
+  padding: 2%;
+}
+
+.last-article-tag {
+  position: absolute;
+  top: -17px;
+  right: 0;
+  background-color: #f44336;
+  color: #fafafa;
+}
+
+.p-article > span {
+  font-size: 85%;
+}
+
+.article-title {
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 170%;
+}
+
+.see-more-button {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 90%;
+  background: transparent;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.see-more-button:hover {
+  background-color: deeppink;
+}
+
+.see-more-button > a {
+  display: block;
+  font-size: 150%;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+
+.see-more-button:hover > a {
+color: #fafafa;
+}
+
+.p-article > a:link,
+.p-article > a {
+  color: deeppink;
+  font-size: 85%;
+}
+
+.more {
+  display: inline-block;
+  padding: 0.1em;
+  color: deeppink;
+  transform: rotate(90deg);
+  float: right;
+  cursor: pointer;
 }
 
 .li-about-section {
