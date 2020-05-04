@@ -24,6 +24,14 @@
   .col-end-#{$i} {
     grid-column-end: #{$i};
   }
+
+  .row-start-#{$i} {
+    grid-row-start: #{$i};
+  }
+
+  .row-end-#{$i} {
+    grid-row-end: #{$i};
+  }
 }
 
 @media (max-width: 1200px) {

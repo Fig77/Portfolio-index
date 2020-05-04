@@ -46,7 +46,63 @@ h1 {
       #fafafa);
 }
 
+.about {}
 
+.ul-about {
+  grid-row-start: 2;
+  grid-row-end: 6;
+}
+
+.image-article {
+  background: url('https://hackernoon.com/drafts/sf5v2kff.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 2%;
+  height: 40vh;
+  width: 90%;
+  margin-bottom: 2%;
+  position: relative;
+  font-size: 110%;
+  font-weight: bolder;
+  border-style: solid;
+  border-width: thin;
+  border-color: #e1e1e1;
+  -webkit-box-shadow: -8px 9px 18px -5px rgba(33, 33, 33, 0.4);
+  -moz-box-shadow: -8px 9px 18px -5px rgba(33, 33, 33, 0.4);
+  box-shadow: -8px 9px 18px -5px rgba(33, 33, 33, 0.4);
+}
+
+.p-article {
+  position: absolute;
+  bottom: 0;
+  background: #fafafa;
+  padding: 2%;
+}
+
+.p-article > span {
+  font-size: 85%;
+}
+
+.p-article > a:link,
+.p-article > a {
+  color: deeppink;
+  font-size: 85%;
+}
+
+.more {
+  display: inline-block;
+  padding: 0.1em;
+  color: deeppink;
+  transform: rotate(90deg);
+}
+
+.li-about-section {
+  font-size: 180%;
+  padding: 2.5%;
+  border-bottom-style: solid;
+  border-bottom-color: deeppink;
+  border-width: thin;
+}
 
 .hero-h1 {
   color: #fff;
@@ -226,7 +282,7 @@ h1 {
 }
 
 #project-2 > .display-project {
-   background: url("../images/Untitled-2.png") no-repeat;
+  background: url("../images/Untitled-2.png") no-repeat;
 }
 
 /* body 2 test */
@@ -275,7 +331,7 @@ h1 {
 .slide-container {}
 
 .main-content {
-  width: 400vw;
+  width: 500vw;
   height: 100vh;
 }
 
@@ -372,7 +428,7 @@ h1 {
 }
 
 .link-project:hover {
-  color:deeppink;
+  color: deeppink;
 }
 
 .project-text-container {
@@ -452,32 +508,34 @@ h1 {
     height: 33vh;
 
   }
-  
+
   .display-project {
     background-size: 43% 90%;
     background-position: center;
   }
-  
+
   .project-text-container > p {
     background-color: #fafafa;
     opacity: 0.7;
   }
-  
+
 
   .project {
     background-color: #fafafa;
     height: 33vh;
   }
-  
+
 }
 
 @media (max-width: 656px) {
   body {
     font-size: 15px;
   }
+
   .subtle-nav-bar > li {
-   font-size: 0.9em; 
+    font-size: 0.9em;
   }
+
   .contact-icons {
     width: 9vw;
     height: 9vh;
@@ -502,14 +560,13 @@ h1 {
     opacity: 0.3;
     transition-duration: 1s;
   }
-  
+
   .display-project {
     background-size: 70% 84%;
     background-position: bottom;
   }
-  
+
   .project-text-container > p:hover {
     opacity: 1;
   }
 }
-
