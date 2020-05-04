@@ -158,7 +158,6 @@ h1 {
 }
 
 
-
 .side-about {
   background-color: coral;
 }
@@ -226,6 +225,10 @@ h1 {
   height: 0;
 }
 
+#project-2 > .display-project {
+   background: url("../images/Untitled-2.png") no-repeat;
+}
+
 /* body 2 test */
 
 .subtle-nav-bar {
@@ -272,7 +275,7 @@ h1 {
 .slide-container {}
 
 .main-content {
-  width: 300vw;
+  width: 400vw;
   height: 100vh;
 }
 
@@ -303,12 +306,12 @@ h1 {
 
 @media (max-width: 576px) {
   .featured {
-    background-color: #ffc100;
+    background-color: #fafafa;
     height: 33vh;
   }
 
   .project {
-    background-color: #FF6347;
+    background-color: #fafafa;
     height: 33vh;
   }
 
@@ -326,16 +329,6 @@ h1 {
 }
 
 
-.project-2 {
-  background: url("../images/placeholder-2.png") no-repeat;
-  background-size: 85% 60%;
-  object-fit: cover;
-  background-position: 20% 10%;
-  border-left-style: solid;
-  border-width: thin;
-  border-color: #bdbdbd;
-  padding-left: 0.3em;
-}
 
 .proj-3 {
   background-color: #f2f2f2;
@@ -365,6 +358,21 @@ h1 {
 .subtle-contact-bar > li {
 
   margin-right: 1.5em;
+}
+
+.div-arrow {
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-project {
+  font-size: 3em;
+  transition-duration: 0.7s;
+}
+
+.link-project:hover {
+  color:deeppink;
 }
 
 .project-text-container {
@@ -440,7 +448,7 @@ h1 {
 
 @media (max-width: 992px) {
   .featured {
-    background-color: #ffc100;
+    background-color: #fafafa;
     height: 33vh;
 
   }
@@ -457,7 +465,7 @@ h1 {
   
 
   .project {
-    background-color: #FF6347;
+    background-color: #fafafa;
     height: 33vh;
   }
   
@@ -468,7 +476,7 @@ h1 {
     font-size: 15px;
   }
   .subtle-nav-bar > li {
-   font-size: 2em; 
+   font-size: 0.9em; 
   }
   .contact-icons {
     width: 9vw;
@@ -478,9 +486,9 @@ h1 {
 
 @media (max-width: 768px) {
   .subtle-nav-bar > li {
-   font-size: 1.7em;
+    font-size: 0.9em;
   }
-  
+
   .feature {
     grid-row: span 1;
   }
