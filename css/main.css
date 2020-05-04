@@ -79,8 +79,49 @@ h1 {
   padding: 2%;
 }
 
+.last-article-tag {
+  position: absolute;
+  top: -17px;
+  right: 0;
+  background-color: #f44336;
+  color: #fafafa;
+}
+
 .p-article > span {
   font-size: 85%;
+}
+
+.article-title {
+  background-color: rgba(250, 250, 250, 0.8);
+  font-size: 170%;
+}
+
+.see-more-button {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  width: 90%;
+  background: transparent;
+  border-color: white;
+  border-width: 1px;
+  border-radius: 3px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+
+.see-more-button:hover {
+  background-color: deeppink;
+}
+
+.see-more-button > a {
+  display: block;
+  font-size: 150%;
+  font-weight: bold;
+  height: 100%;
+  width: 100%;
+}
+
+.see-more-button:hover > a {
+color: #fafafa;
 }
 
 .p-article > a:link,
