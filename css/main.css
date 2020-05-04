@@ -278,6 +278,7 @@ h1 {
 
 .content-projects {
   grid-gap: 0;
+  height: 100vh;
 }
 
 .featured {
