@@ -42,8 +42,8 @@ h1 {
 .green-bg-light {
   background-color: #76ff03;
   background-image: linear-gradient(to bottom,
-      #64dd17 15%,
-      #76ff03);
+      #fafafa 15%,
+      #fafafa);
 }
 
 
@@ -272,7 +272,7 @@ h1 {
 .slide-container {}
 
 .main-content {
-  width: 200vw;
+  width: 300vw;
   height: 100vh;
 }
 
@@ -282,19 +282,19 @@ h1 {
 }
 
 .featured {
-  background-color: #ffc100;
+  background-color: #fafafa;
   height: 100vh;
   grid-row: span 2;
 }
 
 .project {
-  background-color: #FF6347;
+  background-color: #fafafa;
   height: 50vh;
 }
 
 .display-project {
   background: url("../images/placeholder-1.png") no-repeat;
-  background-size: 80% 60%;
+  background-size: 80% 70%;
   object-fit: cover;
   background-position: center;
   height: 100%;
@@ -331,18 +331,26 @@ h1 {
   background-size: 85% 60%;
   object-fit: cover;
   background-position: 20% 10%;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #bdbdbd;
+  padding-left: 0.3em;
 }
 
 .proj-3 {
-  background-color: #f48130;
+  background-color: #f2f2f2;
 }
 
 .project-3 {
-  background-color: #f4a230;
+  background-color: #f2f2f2;
   background: url("../images/Untitled-2.png") no-repeat;
   background-size: 85% 60%;
   object-fit: cover;
   background-position: 20% 10%;
+  border-left-style: solid;
+  border-width: thin;
+  border-color: #bdbdbd;
+  padding-left: 0.3em;
 }
 
 .subtle-contact-bar {
