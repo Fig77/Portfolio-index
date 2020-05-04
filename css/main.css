@@ -396,7 +396,6 @@ h1 {
 }
 
 .text-focus-in {
-
   -webkit-animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation: text-focus-in 2s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   animation-delay: 1s;
@@ -432,12 +431,36 @@ h1 {
 
 @media (max-width: 656px) {
   body {
-    font-size: 12px;
+    font-size: 15px;
   }
-
+  .subtle-nav-bar > li {
+   font-size: 2em; 
+  }
   .contact-icons {
     width: 9vw;
     height: 9vh;
+  }
+}
 
+@media (max-width: 768px) {
+  .subtle-nav-bar > li {
+   font-size: 1.7em;
+  }
+}
+
+@media (max-width: 564px) {
+  .project-text-container > p {
+    background: #fafafa;
+    opacity: 0.3;
+    transition-duration: 1s;
+  }
+  
+  .display-project {
+    background-size: 70% 80%;
+    background-position: bottom;
+  }
+  
+  .project-text-container > p:hover {
+    opacity: 1;
   }
 }
