@@ -622,6 +622,7 @@ h1 {
   .featured {
     background-color: #fafafa;
     height: 33vh;
+    
   }
 
   .project {
@@ -634,6 +635,11 @@ h1 {
     object-fit: cover;
     background-position: center;
     height: 100%;
+  }
+  
+  .content-project {
+    align-items: center;
+    justify-content: center;
   }
 }
 
