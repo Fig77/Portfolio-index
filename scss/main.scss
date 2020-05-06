@@ -10,7 +10,7 @@ $divider-color: #BDBDBD;
 /* Raw elements */
 
 html {
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 199%;
 }
 
 h2 {
@@ -53,7 +53,7 @@ h3 {
 }
 
 .typing {
-  height: 5vh;
+  height: auto;
   overflow: hidden;
   border-right: .10em solid #fafafa;
   white-space: nowrap;
@@ -61,11 +61,11 @@ h3 {
   animation:
     typing 1.5s steps(30, end),
     blink-caret .5s step-end infinite;
+  flex-grow: 1;
 }
 
 .h3-landing {
   position: relative;
-  left: 25%;
 }
 
 .span-arrow {
@@ -79,6 +79,29 @@ h3 {
   opacity: 0;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
+}
+
+/* Nav */
+
+.ul-nav {
+  float: right;
+  font-family: 'Montserrat';
+  color: $primary-text-color;
+  list-style: none;
+  font-size: 145%;
+  padding-right: 15%;
+  border-left-style: solid;
+  border-right-style: solid;
+}
+
+.ul-nav > li {
+  margin-left: 10%;
+}
+
+/* Main section */
+
+.main-section {
+  height: 100vh;
 }
 
 .text-focus-in {

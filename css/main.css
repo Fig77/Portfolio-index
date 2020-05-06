@@ -1,12 +1,12 @@
 /* Raw elements */
 html {
-  overflow: hidden; }
+  overflow-x: hidden; }
 
 body {
   font-family: 'Muli', 'Montserrat', sans-serif; }
 
 h1 {
-  font-size: 200%; }
+  font-size: 199%; }
 
 h2 {
   font-size: 170%;
@@ -33,16 +33,16 @@ h3 {
   position: relative; }
 
 .typing {
-  height: 5vh;
+  height: auto;
   overflow: hidden;
   border-right: .10em solid #fafafa;
   white-space: nowrap;
   letter-spacing: .10em;
-  animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite; }
+  animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
+  flex-grow: 1; }
 
 .h3-landing {
-  position: relative;
-  left: 25%; }
+  position: relative; }
 
 .span-arrow {
   position: absolute;
@@ -54,6 +54,24 @@ h3 {
   opacity: 0;
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) 1s both; }
+
+/* Nav */
+.ul-nav {
+  float: right;
+  font-family: 'Montserrat';
+  color: #212121;
+  list-style: none;
+  font-size: 145%;
+  padding-right: 15%;
+  border-left-style: solid;
+  border-right-style: solid; }
+
+.ul-nav > li {
+  margin-left: 10%; }
+
+/* Main section */
+.main-section {
+  height: 100vh; }
 
 .text-focus-in {
   -webkit-animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
