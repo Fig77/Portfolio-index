@@ -2,19 +2,21 @@
 html {
   overflow-x: hidden; }
 
+main {
+  overflow-x: hidden; }
+
 body {
-  font-family: 'Muli', 'Montserrat', sans-serif; }
+  font-family: 'Muli', 'Noto Sans JP', 'Montserrat', sans-serif; }
 
 h1 {
-  font-size: 199%; }
+  font-size: 180%; }
 
 h2 {
-  font-size: 170%;
-  marin-top: 1%;
-  margin-bot: 1%; }
+  font-size: 165%; }
 
 h3 {
-  font-size: 140%; }
+  font-size: 140%;
+  margin-top: 1.5%; }
 
 /* General */
 .d-inline-b {
@@ -23,8 +25,12 @@ h3 {
 .d-block {
   display: block; }
 
+.display-none {
+  display: none; }
+
 /* Landing */
 .landing {
+  z-index: 50;
   background-color: #607D8B;
   height: 100vh;
   width: 100vw;
@@ -33,22 +39,25 @@ h3 {
   position: relative; }
 
 .typing {
-  height: auto;
+  float: left;
+  padding: 3px;
   overflow: hidden;
   border-right: .10em solid #fafafa;
   white-space: nowrap;
   letter-spacing: .10em;
-  animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite;
-  flex-grow: 1; }
+  animation: typing 1.5s steps(30, end), blink-caret 0.5s step-end infinite; }
 
 .h3-landing {
-  position: relative; }
+  position: relative;
+  margin-top: 8px;
+  margin-bottom: 8px; }
 
 .span-arrow {
   position: absolute;
   display: inline-block;
   font-size: 330%;
-  bottom: 30%; }
+  bottom: 35%;
+  opacity: 0; }
 
 .p-landing {
   opacity: 0;
@@ -57,17 +66,23 @@ h3 {
 
 /* Nav */
 .ul-nav {
-  float: right;
+  position: sticky;
+  top: 0;
+  padding: 10px;
   font-family: 'Montserrat';
   color: #212121;
   list-style: none;
-  font-size: 145%;
-  padding-right: 15%;
-  border-left-style: solid;
-  border-right-style: solid; }
+  font-size: 105%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #CFD8DC;
+  background-color: #CFD8DC;
+  opacity: 0.5; }
 
 .ul-nav > li {
-  margin-left: 10%; }
+  margin-left: 5px;
+  display: inline-block; }
 
 /* Main section */
 .main-section {
@@ -81,6 +96,43 @@ h3 {
   -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both; }
 
+/* Project */
+/* projects - main */
+.project-1 {
+  background-color: #CFD8DC;
+  height: 50vh; }
+
+.project-1-div {
+  height: 95%;
+  width: 50%;
+  background-color: #607D8B;
+  animation: bg-loop 250s linear infinite;
+  transition: all .2s ease-in-out; }
+
+.pro-2 {
+  background-color: #FAFAFA;
+  animation: bg-loop-b 290s linear infinite; }
+
+.project-1-div {
+  background-image: url(../images/ruby-svg.svg); }
+
+.project-1-div:hover {
+  width: 100%; }
+
+.h3-title-project {
+  background-color: yellow;
+  color: #212121; }
+
+.project-1-div:hover .h3-title-project {
+  display: inline-block; }
+
+/* animation */
+@keyframes bg-loop {
+  100% {
+    background-position: 0px -3000px; } }
+@keyframes bg-loop-b {
+  100% {
+    background-position: 0px 3000px; } }
 @keyframes typing {
   from {
     width: 0; }
@@ -112,22 +164,57 @@ h3 {
     opacity: 1; } }
 @-webkit-keyframes slide-in-bottom {
   0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
-    opacity: 0; }
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px); }
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    transform: rotate(90deg);
     opacity: 1; } }
-@keyframes slide-in-bottom {
+@keyframes hover {
   0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
-    opacity: 0; }
+    transform: translatey(-3px); }
+  23% {
+    transform: translatey(-2px); }
+  33% {
+    transform: translatey(-1px); }
+  43% {
+    transform: translateY(0); }
+  63% {
+    transform: translateY(-1); }
+  83% {
+    transform: translateY(-2); }
   100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-    transform: rotate(90deg); } }
+    transform: translatey(-3px); } }
+/* main - article projects */
+.h1-projects {
+  font-family: 'Noto Sans JP';
+  padding: 2vw 2vw 1vw 2vw;
+  font-size: 3vw;
+  letter-spacing: 0.3vw; }
+
+.h3-projects {
+  padding: 1vw 2vw 2vw 2vw;
+  font-size: 1.5vw; }
+
+/* medias */
+@media (min-width: 650px) and (max-width: 900px) {
+  .span-arrow {
+    position: absolute;
+    display: inline-block;
+    font-size: 330%;
+    bottom: 18%; } }
+@media (max-width: 650px) {
+  h1 {
+    font-size: 155%; }
+
+  h2 {
+    font-size: 130%; }
+
+  h3 {
+    font-size: 140%; }
+
+  .p-landing {
+    font-size: 80%; } }
 
 /*# sourceMappingURL=main.css.map */
