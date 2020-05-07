@@ -28,6 +28,9 @@ h3 {
 .display-none {
   display: none; }
 
+.opacity-none {
+  opacity: 0; }
+
 /* Landing */
 .landing {
   z-index: 50;
@@ -106,33 +109,89 @@ h3 {
   height: 95%;
   width: 50%;
   background-color: #607D8B;
-  animation: bg-loop 250s linear infinite;
-  transition: all .2s ease-in-out; }
+  animation: hover 2s ease-in-out infinite;
+  transition: all .2s ease-in-out;
+  padding: 3%; }
+
+.item-proj-1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  left: -100%;
+  transition-duration: 3s;
+  display: none;
+  padding: 2%; }
+
+.item-proj-1 > span {
+  color: #455A64; }
+
+.image-item-1 {
+  background: transparent;
+  width: 100%;
+  position: relative;
+  left: -300%;
+  top: 5%;
+  transition-duration: 2s;
+  display: none;
+  object-fit: cover; }
+
+.image-item-mobile {
+  background: transparent;
+  width: 100%;
+  position: relative;
+  left: -300%;
+  top: 5%;
+  transition-delay: 2s;
+  display: none;
+  object-fit: cover; }
+
+.img-mov {
+  opacity: 0; }
 
 .pro-2 {
-  background-color: #FAFAFA;
-  animation: bg-loop-b 290s linear infinite; }
+  background-color: #FAFAFA; }
 
 .project-1-div {
-  background-image: url(../images/ruby-svg.svg); }
+  background-image: url(../images/ruby-svg.svg);
+  background-position: center; }
 
 .project-1-div:hover {
   width: 100%; }
 
 .h3-title-project {
-  background-color: yellow;
-  color: #212121; }
+  background-color: #FAFAFA;
+  color: #455A64;
+  font-weight: bold;
+  text-align: center;
+  transition-duration: 1s; }
 
 .project-1-div:hover .h3-title-project {
-  display: inline-block; }
+  opacity: 1; }
+
+.project-1-div:hover .item-proj-1 {
+  left: 0;
+  display: flex; }
+
+.project-1-div:hover .image-item-1 {
+  left: 0;
+  display: block; }
+
+.project-1-div:hover .image-item-mobile {
+  left: 0;
+  display: block; }
+
+.project-1-div:hover .img-mov {
+  top: 0;
+  opacity: 1; }
+
+.img-mov {
+  opacity: 0;
+  transition-duration: 2s; }
 
 /* animation */
 @keyframes bg-loop {
   100% {
     background-position: 0px -3000px; } }
-@keyframes bg-loop-b {
-  100% {
-    background-position: 0px 3000px; } }
 @keyframes typing {
   from {
     width: 0; }
