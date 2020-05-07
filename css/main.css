@@ -101,9 +101,14 @@ h3 {
 
 /* Project */
 /* projects - main */
+.intro {
+  height: 25vh; }
+
 .project-1 {
-  background-color: #CFD8DC;
-  height: 50vh; }
+  background-color: #CFD8DC; }
+
+.proj-long {
+  background-color: #455A64; }
 
 .project-1-div {
   height: 95%;
@@ -164,6 +169,12 @@ h3 {
   font-weight: bold;
   text-align: center;
   transition-duration: 1s; }
+
+.proj-3 {
+  background-color: #CFD8DC; }
+
+.proj-4 {
+  background-color: #455A64; }
 
 .project-1-div:hover .h3-title-project {
   opacity: 1; }

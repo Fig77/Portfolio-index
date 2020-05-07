@@ -138,9 +138,16 @@ h3 {
 /* Project */
 /* projects - main */
 
+.intro {
+  height: 25vh;
+}
+
 .project-1 {
   background-color: $primary-color-light;
-  height: 50vh;
+}
+
+.proj-long {
+  background-color: $primary-color-dark;
 }
 
 .project-1-div {
@@ -213,6 +220,14 @@ h3 {
   font-weight: bold;
   text-align: center;
   transition-duration: 1s;
+}
+
+.proj-3 {
+  background-color: $primary-color-light;
+}
+
+.proj-4 {
+  background-color: $primary-color-dark;
 }
 
 .project-1-div:hover .h3-title-project {
