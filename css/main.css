@@ -5,7 +5,11 @@ body {
 /* General */
 .h1 {
   margin-top: 1.2vw;
-  margin-bottom: 1.2vw; }
+  margin-bottom: 1.2vw;
+  font-size: 2.5vw; }
+
+.p {
+  font-size: 1.3vw; }
 
 .overlay {
   width: 100%;
@@ -13,6 +17,9 @@ body {
   position: absolute;
   opacity: 0.3;
   top: 0; }
+
+.color-primary-text {
+  color: #FAFAFA; }
 
 .bg-primary-dark {
   background-color: #455A64; }
@@ -61,6 +68,17 @@ body {
   opacity: 0;
   color: #FAFAFA; }
 
+/* Main */
+.intro {
+  padding: 1%; }
+
+.intro > p {
+  padding-bottom: 1%;
+  border-bottom-style: solid;
+  border-color: #BDBDBD;
+  border-width: thin; }
+
+/* Efects */
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
   animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both; }
@@ -69,7 +87,6 @@ body {
   -webkit-animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
   animation: text-focus-in 2s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
-/* Animatyion */
 @keyframes typing {
   from {
     width: 0; }
