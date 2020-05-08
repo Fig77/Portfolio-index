@@ -1,6 +1,7 @@
 /* Raw elements */
 body {
-  font-family: 'Muli', 'Noto Sans JP', 'Montserrat', sans-serif; }
+  font-family: 'Muli', 'Noto Sans JP', 'Montserrat', sans-serif;
+  background-color: #FAFAFA; }
 
 /* General */
 .h1 {
@@ -24,11 +25,14 @@ body {
 .bg-primary-dark {
   background-color: #455A64; }
 
+.wrap {
+  flex-wrap: wrap; }
+
 /* Header */
 .header {
   background-color: #455A64;
+  background-image: url("../images/keyboard.jpg");
   background-blend-mode: overlay;
-  background-image: url("../images/cat-picture.jpeg");
   background-position: center;
   height: 100vh;
   width: 100%;
@@ -70,13 +74,93 @@ body {
 
 /* Main */
 .intro {
-  padding: 1%; }
+  padding: 2.5%; }
 
 .intro > p {
   padding-bottom: 1%;
   border-bottom-style: solid;
   border-color: #BDBDBD;
   border-width: thin; }
+
+.project-box {
+  overflow: hidden;
+  background-blend-mode: overlay;
+  width: 24vw;
+  height: 24vw;
+  margin: 0.2%;
+  position: relative;
+  -webkit-box-shadow: 10px 5px 8px -3px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 10px 5px 8px -3px rgba(0, 0, 0, 0.65);
+  box-shadow: 10px 5px 8px -3px rgba(0, 0, 0, 0.65);
+  transition: 0.4s;
+  cursor: pointer;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.project-box:hover {
+  width: 25vw;
+  height: 25vw;
+  z-index: 50;
+  -webkit-box-shadow: 12px 5px 8px 0px rgba(0, 0, 0, 0.65);
+  -moz-box-shadow: 12px 5px 8px 0px rgba(0, 0, 0, 0.65);
+  box-shadow: 12px 5px 8px 0px rgba(0, 0, 0, 0.65);
+  cursor: default; }
+
+.project-description {
+  position: absolute;
+  bottom: -300px;
+  font-family: 'Noto Sans JP';
+  font-size: 1.2vw;
+  font-weight: bold;
+  background-color: #FAFAFA;
+  width: 100%; }
+
+.project-description > div > span {
+  padding: 1%;
+  color: #607D8B; }
+
+.project-box:hover .project-description {
+  transition: 0.7s;
+  bottom: 3%; }
+
+.project-class,
+.project-title {
+  color: #212121;
+  background-color: #CFD8DC; }
+
+.project-class {
+  font-size: 2vw;
+  width: 100%; }
+
+.project-title {
+  font-size: 1.5vw;
+  width: 100%; }
+
+.plus {
+  position: absolute;
+  top: 24%;
+  font-size: 10vw;
+  color: #607D8B; }
+
+.ico-40 > img {
+  cursor: pointer;
+  height: 1.4vw;
+  width: 1.4vw; }
+
+/* Particular projects */
+.project-1 {
+  background-image: url("../images/placeholder-1.png"); }
+
+.project-2 {
+  background-image: url("../images/social-place-holder.png"); }
+
+.project-3 {
+  background-image: url("../images/Untitled-2.png"); }
+
+.project-4 {
+  background-image: url("../images/ruby-svg.svg");
+  background-size: 60% 60%; }
 
 /* Efects */
 .slide-in-bottom {
