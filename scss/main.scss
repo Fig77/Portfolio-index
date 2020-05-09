@@ -9,6 +9,10 @@ $divider-color: #BDBDBD;
 
 /* Raw elements */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Muli', 'Noto Sans JP', 'Montserrat', sans-serif;
   background-color: $primary-color-text;
@@ -16,9 +20,8 @@ body {
 
 footer {
   background-color: $primary-color;
-  height: 5vh;
   width: 100%;
-  margin-top: 2%;
+  margin-top: 4%;
 }
 
 /* General */
@@ -41,6 +44,10 @@ footer {
   top: 0;
 }
 
+.d-none {
+  display: none;
+}
+
 .color-primary-text {
   color: $primary-color-text;
 }
@@ -54,7 +61,7 @@ footer {
 }
 
 .margin-t-1 {
-  margin-top:1.5%;
+  margin-top: 1.5%;
 }
 
 .margin-r-3 {
@@ -106,13 +113,17 @@ footer {
 
 
 .span-arrow {
-  position: absolute;
-  display: inline-block;
   font-size: 330%;
-  bottom: 30%;
   opacity: 0;
   color: $primary-color-text;
+  display: block;
+  cursor: pointer;
+  transition: 1s;
 }
+
+.span-arrow:hover {
+  color: $primary-color;
+} 
 
 /* Main */
 
@@ -220,12 +231,24 @@ intro > ul {}
 }
 
 .project-3 {
-  background-image: url('../images/Untitled-2.png');
+  background-image: url('../images/ruby.svg');
+  background-size: 60% 60%;
 
 }
 
 .project-4 {
-  background-image: url('../images/ruby-svg.svg');
+  background-image: url('../images/ruby.svg');
+  background-size: 60% 60%;
+}
+
+.project-5 {
+
+  background-image: url('../images/c.svg');
+  background-size: 60% 60%;
+}
+
+.project-6 {
+  background-image: url('../images/javascript-1.svg');
   background-size: 60% 60%;
 }
 
@@ -244,6 +267,32 @@ intro > ul {}
   font-weight: bold;
 }
 
+.ul-footer {
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: $divider-color;
+  padding: 8%;
+  font-size: 1.8vw;
+}
+
+.ul-footer > span {
+  color: $primary-color-dark;
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 5%;
+  font-size: 1.5vw;
+}
+
+
+.ul-footer > li {
+  margin-top: 1%;
+  margin-bottom: 5%;;
+  font-size: 1.3vw;
+}
+
+.ul-footer > li > a {
+  color: $primary-color-text;
+}
 
 /* Efects */
 
@@ -333,18 +382,68 @@ intro > ul {}
 
 /* Medias */
 
-@media (max-width: 870px) {
-  .span-arrow {
-    bottom: 24%;
+@media (max-width: 690px) {
+  header {
+    font-size: 4vw;
+  }
+
+  .project-description {
+    bottom: 0;
   }
 }
+
+@media (max-width: 500px) {
+  .header > div > h1 {
+    font-size: 5.2vw;
+  }
+
+  .header > h2 {
+    font-size: 3.2vw;
+    margin-bottom: 1vw;
+  }
+
+  .header > p {
+    font-size: 2.42vw;
+  }
+
+  .typing {
+    height: 4.5vw;
+  }
+
+  .h1 {
+    font-size: 5vw;
+  }
+
+  .p {
+    font-size: 2vw;
+  }
+
+  .li-contact > a > img {
+    width: 9.5vw;
+    height: 9.5vw;
+  }
+
+}
+
+
 
 @media (max-width: 420px) {
   .project-box {
     width: 100vw;
     height: 40vh;
   }
+
+  .project-box:hover {
+    width: 100vw;
+    height: 40vh;
+  }
+
   .project-description {
     bottom: 0;
+  }
+
+  .project-box:hover .project-description {
+    bottom: 2%;
+    font-size: 5vw;
   }
 }
