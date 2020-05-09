@@ -48,6 +48,11 @@ footer {
   display: none;
 }
 
+.link:link {
+  color: $primary-color-dark;
+  font-weight: bold;
+}
+
 .color-primary-text {
   color: $primary-color-text;
 }
@@ -123,7 +128,7 @@ footer {
 
 .span-arrow:hover {
   color: $primary-color;
-} 
+}
 
 /* Main */
 
@@ -286,7 +291,8 @@ intro > ul {}
 
 .ul-footer > li {
   margin-top: 1%;
-  margin-bottom: 5%;;
+  margin-bottom: 5%;
+  ;
   font-size: 1.3vw;
 }
 
@@ -423,6 +429,24 @@ intro > ul {}
     height: 9.5vw;
   }
 
+
+  .credit {
+    font-size: 2.2vw;
+  }
+
+  .ul-footer {
+    font-size: 2.8vw;
+  }
+
+  .ul-footer > span {
+    font-size: 2.5vw;
+  }
+
+
+  .ul-footer > li {
+    font-size: 2.3vw;
+  }
+
 }
 
 
@@ -442,7 +466,7 @@ intro > ul {}
     bottom: 0;
   }
 
-  .project-box:hover .project-description {
+  .project-description {
     bottom: 2%;
     font-size: 5vw;
   }

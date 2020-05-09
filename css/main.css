@@ -30,6 +30,10 @@ footer {
 .d-none {
   display: none; }
 
+.link:link {
+  color: #455A64;
+  font-weight: bold; }
+
 .color-primary-text {
   color: #FAFAFA; }
 
@@ -305,7 +309,19 @@ footer {
 
   .li-contact > a > img {
     width: 9.5vw;
-    height: 9.5vw; } }
+    height: 9.5vw; }
+
+  .credit {
+    font-size: 2.2vw; }
+
+  .ul-footer {
+    font-size: 2.8vw; }
+
+  .ul-footer > span {
+    font-size: 2.5vw; }
+
+  .ul-footer > li {
+    font-size: 2.3vw; } }
 @media (max-width: 420px) {
   .project-box {
     width: 100vw;
@@ -318,7 +334,7 @@ footer {
   .project-description {
     bottom: 0; }
 
-  .project-box:hover .project-description {
+  .project-description {
     bottom: 2%;
     font-size: 5vw; } }
 
