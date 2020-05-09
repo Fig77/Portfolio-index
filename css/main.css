@@ -3,6 +3,12 @@ body {
   font-family: 'Muli', 'Noto Sans JP', 'Montserrat', sans-serif;
   background-color: #FAFAFA; }
 
+footer {
+  background-color: #607D8B;
+  height: 5vh;
+  width: 100%;
+  margin-top: 2%; }
+
 /* General */
 .h1 {
   margin-top: 1.2vw;
@@ -27,6 +33,12 @@ body {
 
 .wrap {
   flex-wrap: wrap; }
+
+.margin-t-1 {
+  margin-top: 1.5%; }
+
+.margin-r-3 {
+  margin-right: 2%; }
 
 /* Header */
 .header {
@@ -74,13 +86,13 @@ body {
 
 /* Main */
 .intro {
-  padding: 2.5%; }
-
-.intro > p {
-  padding-bottom: 1%;
+  padding: 1%;
   border-bottom-style: solid;
   border-color: #BDBDBD;
   border-width: thin; }
+
+.intro > p {
+  padding-bottom: 1%; }
 
 .project-box {
   overflow: hidden;
@@ -162,6 +174,17 @@ body {
   background-image: url("../images/ruby-svg.svg");
   background-size: 60% 60%; }
 
+/* section articles */
+.section-articles {
+  background-color: #CFD8DC; }
+
+/* Footer */
+.credit {
+  font-size: 1.2vw;
+  font-family: 'Montserrat';
+  color: #FAFAFA;
+  font-weight: bold; }
+
 /* Efects */
 .slide-in-bottom {
   -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 2s both;
@@ -214,5 +237,16 @@ body {
     -webkit-filter: blur(0px);
     filter: blur(0px);
     opacity: 1; } }
+/* Medias */
+@media (max-width: 870px) {
+  .span-arrow {
+    bottom: 24%; } }
+@media (max-width: 420px) {
+  .project-box {
+    width: 100vw;
+    height: 40vh; }
+
+  .project-description {
+    bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
