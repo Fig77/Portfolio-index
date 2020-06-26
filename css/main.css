@@ -1,43 +1,43 @@
 /* Animations  Thanks to: --- .. ?!.*/
 @-webkit-keyframes bg-scrolling-reverse {
   100% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @-moz-keyframes bg-scrolling-reverse {
   100% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @-o-keyframes bg-scrolling-reverse {
   100% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @keyframes bg-scrolling-reverse {
   100% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @-webkit-keyframes bg-scrolling {
   0% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @-moz-keyframes bg-scrolling {
   0% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @-o-keyframes bg-scrolling {
   0% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 @keyframes bg-scrolling {
   0% {
-    background-position: 100vw 100vh; } }
+    background-position: 100vw 100px; } }
 /* Main styles */
 .header {
   margin-top: 13.5rem;
-  color: #212121;
+  color: #999;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
   /* img size is 50x50 */
   background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
-  -webkit-animation: bg-scrolling-reverse .92s infinite;
+  -webkit-animation: bg-scrolling-reverse 18.22s infinite;
   /* Safari 4+ */
-  -moz-animation: bg-scrolling-reverse .92s infinite;
+  -moz-animation: bg-scrolling-reverse 18.22s infinite;
   /* Fx 5+ */
-  -o-animation: bg-scrolling-reverse .92s infinite;
+  -o-animation: bg-scrolling-reverse 18.22s infinite;
   /* Opera 12+ */
-  animation: bg-scrolling-reverse .92s infinite;
+  animation: bg-scrolling-reverse 18.22s infinite;
   /* IE 10+ */
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
@@ -48,5 +48,11 @@
     font-size: 8rem;
     font-weight: 100;
     font-style: normal; }
+
+.span-h1-header {
+  color: #7a7a7a;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px; }
 
 /*# sourceMappingURL=main.css.map */
