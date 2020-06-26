@@ -24,6 +24,10 @@
   0% {
     background-position: 100vw 100px; } }
 /* Main styles */
+.nav-bar {
+  position: sticky;
+  top: 0; }
+
 .ul-nav {
   list-style: none;
   display: flex;
@@ -47,12 +51,15 @@
   -webkit-animation-timing-function: linear;
   -moz-animation-timing-function: linear;
   -o-animation-timing-function: linear;
-  animation-timing-function: linear; }
+  animation-timing-function: linear;
+  height: 50%; }
   .header::before {
     content: "Full-Stack Dev";
-    font-size: 8rem;
+    font-size: 8.2rem;
     font-weight: 100;
-    font-style: normal; }
+    font-style: normal;
+    padding-bottom: 1.2rem;
+    padding-top: 2rem; }
 
 .span-h1-header {
   color: #7a7a7a;
@@ -61,29 +68,36 @@
   padding-right: 5px; }
 
 .header-test {
-  display: inline; }
+  flex-wrap: wrap; }
 
 .container-hero {
   height: 100vh; }
 
 /* Mobile-dev */
 @media (max-width: 375px) {
+  .container-hero {
+    height: 250px;
+    border-top-color: rgba(33, 33, 33, 0.4);
+    border-bottom-color: rgba(33, 33, 33, 0.4);
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: thin; }
+
   .header::before {
-    font-size: 2rem; }
+    font-size: 3.2rem; }
 
   .header-test {
-    font-size: 0.7rem;
-    height: 100px; }
-
-  .nav-bar {
-    position: sticky; }
+    font-size: 0.8rem; }
 
   .ul-nav {
-    font-size: 0.9rem;
-    font-family: 'exo';
+    font-size: 1.2rem;
+    font-family: 'Muli';
     color: #7a7a7a; }
 
   .li-nav {
-    padding: 1rem; } }
+    padding: 1.5rem;
+    padding-left: 0.8rem;
+    padding-top: 0.3rem; } }
 
 /*# sourceMappingURL=main.css.map */
