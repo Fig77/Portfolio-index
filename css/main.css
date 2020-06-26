@@ -24,8 +24,13 @@
   0% {
     background-position: 100vw 100px; } }
 /* Main styles */
+.ul-nav {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  colo: #7a7a7a; }
+
 .header {
-  margin-top: 13.5rem;
   color: #999;
   font: 400 16px/1.5 exo, ubuntu, "segoe ui", helvetica, arial, sans-serif;
   text-align: center;
@@ -52,7 +57,33 @@
 .span-h1-header {
   color: #7a7a7a;
   font-weight: bold;
-  padding-left: 10px;
-  padding-right: 10px; }
+  padding-left: 5px;
+  padding-right: 5px; }
+
+.header-test {
+  display: inline; }
+
+.container-hero {
+  height: 100vh; }
+
+/* Mobile-dev */
+@media (max-width: 375px) {
+  .header::before {
+    font-size: 2rem; }
+
+  .header-test {
+    font-size: 0.7rem;
+    height: 100px; }
+
+  .nav-bar {
+    position: sticky; }
+
+  .ul-nav {
+    font-size: 0.9rem;
+    font-family: 'exo';
+    color: #7a7a7a; }
+
+  .li-nav {
+    padding: 1rem; } }
 
 /*# sourceMappingURL=main.css.map */
