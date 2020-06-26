@@ -32,7 +32,11 @@
   list-style: none;
   display: flex;
   justify-content: flex-end;
-  colo: #7a7a7a; }
+  colo: #7a7a7a;
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  border-width: thin;
+  padding-top: 0.3rem; }
 
 .header {
   color: #999;
@@ -68,7 +72,7 @@
   padding-right: 5px; }
 
 .header-test {
-  flex-wrap: wrap; }
+  display: inline; }
 
 .container-hero {
   height: 100vh; }
@@ -76,13 +80,9 @@
 /* Mobile-dev */
 @media (max-width: 375px) {
   .container-hero {
-    height: 250px;
-    border-top-color: rgba(33, 33, 33, 0.4);
-    border-bottom-color: rgba(33, 33, 33, 0.4);
-    border-style: solid;
-    border-left-style: none;
-    border-right-style: none;
-    border-width: thin; }
+    height: 220px;
+    padding: 0;
+    padding-bottom: 0.3rem; }
 
   .header::before {
     font-size: 3.2rem; }
@@ -98,6 +98,6 @@
   .li-nav {
     padding: 1.5rem;
     padding-left: 0.8rem;
-    padding-top: 0.3rem; } }
+    padding-top: 0.5rem; } }
 
 /*# sourceMappingURL=main.css.map */
