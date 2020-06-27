@@ -58,7 +58,9 @@ $bg-height: 100px;
 
 /* Main styles */
 
-body {}
+body {
+  font-family: 'Exo', sans-serif;
+}
 
 .nav-bar {
   position: sticky;
@@ -121,10 +123,19 @@ body {}
   height: 100vh;
 }
 
+.contact-box {
+  padding: 0.5rem;
+  position: relative;
+}
+
+.contact-box > i {
+  padding-right: 0.4rem;
+  align-items: baseline;
+}
+
 /* Mobile-dev */
 
 @media (max-width: 375px) {
-
   .container-hero {
     height: 220px;
     padding: 0;
@@ -139,15 +150,27 @@ body {}
     font-size: 0.8rem;
   }
 
-  .ul-nav {
-    font-size: 1.2rem;
-    font-family: 'Muli';
-    color: $primary-text-dark;
+  .section-who {
+    padding: 0.8rem;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: rgba(0.33, 0.33, 0.33, 0.2);
   }
 
-  .li-nav {
-    padding: 1.5rem;
-    padding-left: 0.8rem;
-    padding-top: 0.5rem;
+  .h1-who {
+    font-size: 2rem;
+    font-weight: bold;
+    color: $primary-text-ligt;
+    margin-bottom: 1rem;
+  }
+
+  .p-who {
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+  }
+
+  .contact-box > i {
+    padding-right: 0.7rem;
+    font-size: 1.6rem;
   }
 }
