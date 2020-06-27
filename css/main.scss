@@ -133,6 +133,30 @@ body {
   align-items: baseline;
 }
 
+.section-projects {}
+
+.container-project-1 {
+  background-image: url('../images/placeholder-2.png');
+  justify-content: flex-end;
+  padding: 0 10px 10px 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 25vh;
+  width: 90vw;
+}
+
+.p-project {
+  font-weight: bold;
+  background-color: #e1e1e1;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.p-project > a {
+  font-size: 0.7rem;
+}
+
 /* Mobile-dev */
 
 @media (max-width: 375px) {
