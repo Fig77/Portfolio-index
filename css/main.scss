@@ -100,7 +100,7 @@ body {
 
   &::before {
     content: "Full-Stack Dev";
-    font-size: 8.2rem;
+    font-size: 4.2rem;
     font-weight: 100;
     font-style: normal;
     padding-bottom: 1.2rem;
@@ -184,17 +184,21 @@ body {
   .h1-who {
     font-size: 2rem;
     font-weight: bold;
+    margin-top: 1.3rem;
     color: $primary-text-ligt;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
   }
 
   .p-who {
     font-size: 0.8rem;
     letter-spacing: 0.5px;
+    padding-bottom: 0.6rem;
+    line-height: 1.4;
   }
 
   .contact-box > i {
-    padding-right: 0.7rem;
+    padding-right: 0.9rem;
+    padding-bottom: 0.8rem;
     font-size: 1.6rem;
   }
 }
