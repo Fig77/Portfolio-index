@@ -77,7 +77,7 @@ $bg-height: 100px;
 }
 
 body {
-  font-family: 'Exo', sans-serif;
+  font-family: 'Exo', 'Ubuntu', sans-serif;
 }
 
 .nav-bar {
@@ -249,12 +249,17 @@ body {
 }
 
 .latest-article > h1 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  margin: 1rem 0 1rem 0;
+  font-weight: 600;
 }
 
 .article-title {
   font-size: 1rem;
   padding: 0.5rem 0 0.5rem 0;
+  background-color: rgba(250, 250, 250, 0.5);
+  margin-top: 0;
+  font-family: 'Ubuntu', 'Exo';
 }
 
 .article-1 {
@@ -262,8 +267,10 @@ body {
   width: 80vw;
   background-image: url('../images/latest-a.png');
   background-repeat: no-repeat;
-  background-size: fit;
-  margin-top: 0.5rem;
+  background-size: cover;
+  -webkit-box-shadow: 10px 11px 15px -6px rgba(33, 33, 33, 1);
+  -moz-box-shadow: 10px 11px 15px -6px rgba(33, 33, 33, 1);
+  box-shadow: 10px 11px 15px -6px rgba(33, 33, 33, 1);
 }
 
 /* Mobile-dev */
