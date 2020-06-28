@@ -119,7 +119,7 @@ body {
 .container-project {
   height: 40vh; }
 
-.container-pic-1 {
+.container-pic {
   background-image: url("../images/placeholder-2.png");
   padding: 0 10px 10px 5px;
   background-repeat: no-repeat;
@@ -128,6 +128,10 @@ body {
   width: 100vw;
   position: relative;
   align-items: flex-end; }
+
+.container-pic-2 {
+  background-image: url("../images/placeholder-1.png");
+  background-size: 90% 100%; }
 
 .title-project {
   padding: 0.7rem 1.5rem 0.7rem 1.5rem;
