@@ -30,6 +30,9 @@
 .primary-light {
   color: #999; }
 
+.primary-white {
+  color: #fafafa; }
+
 .bold {
   font-weight: bold; }
 
@@ -39,6 +42,10 @@ body {
 .nav-bar {
   position: sticky;
   top: 0; }
+
+.text-disc-1 {
+  line-height: 1.4;
+  letter-spacing: 0.5px; }
 
 .ul-nav {
   list-style: none;
@@ -97,14 +104,27 @@ body {
   padding-right: 0.4rem;
   align-items: baseline; }
 
+.project-description {
+  margin-top: 1.3rem;
+  padding: 1rem;
+  align-items: center; }
+
+.p-who {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  padding-bottom: 0.6rem;
+  line-height: 1.4; }
+
+/* PROJECTS SECTION */
+.container-project {
+  height: 40vh; }
+
 .container-pic-1 {
   background-image: url("../images/placeholder-2.png");
-  justify-content: flex-end;
   padding: 0 10px 10px 5px;
   background-repeat: no-repeat;
-  background-size: 90% 120%;
+  background-size: 100% 120%;
   background-position: center;
-  height: 25vh;
   width: 100vw;
   position: relative;
   align-items: flex-end; }
@@ -112,7 +132,8 @@ body {
 .title-project {
   padding: 0.7rem 1.5rem 0.7rem 1.5rem;
   margin: 1rem 0 1rem 0;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+  background-color: #212121; }
 
 .p-project {
   font-weight: bold;
@@ -124,12 +145,12 @@ body {
 
 .div-pic {
   font-style: 'Muli';
-  font-weight: bold;
-  font-size: 2rem;
-  padding: 0.5rem;
+  font-weight: thin;
+  font-size: 1.5rem;
+  padding: 0.3rem;
   background-color: rgba(250, 250, 250, 0.4);
   border-style: solid;
-  border-width: 4px;
+  border-width: 1px;
   border-color: #212121;
   display: inline-block;
   margin-right: 1rem; }
@@ -166,12 +187,6 @@ body {
     margin-top: 1.3rem;
     color: #999;
     margin-bottom: 1.3rem; }
-
-  .p-who {
-    font-size: 0.8rem;
-    letter-spacing: 0.5px;
-    padding-bottom: 0.6rem;
-    line-height: 1.4; }
 
   .contact-box > i {
     padding-right: 0.9rem;

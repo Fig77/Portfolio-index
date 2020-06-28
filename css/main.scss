@@ -1,6 +1,8 @@
 $primary-text-ligt: #999;
 $primary-text-dark: #7a7a7a;
 $primary-black: #212121;
+$primary-grey-light: #D6D6D6;
+$primary-white: #fafafa;
 
 
 $bg-url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC";
@@ -66,8 +68,12 @@ $bg-height: 100px;
   color: $primary-text-ligt;
 }
 
+.primary-white {
+  color: $primary-white;
+}
+
 .bold {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 body {
@@ -77,6 +83,11 @@ body {
 .nav-bar {
   position: sticky;
   top: 0;
+}
+
+.text-disc-1 {
+  line-height: 1.4;
+  letter-spacing: 0.5px;
 }
 
 .ul-nav {
@@ -145,20 +156,33 @@ body {
   align-items: baseline;
 }
 
+.project-description {
+  margin-top: 1.3rem;
+  padding: 1rem;
+  align-items: center;
+}
+
+.p-who {
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  padding-bottom: 0.6rem;
+  line-height: 1.4;
+}
+
+/* PROJECTS SECTION */
+
 .section-projects {}
 
 .container-project {
-  
-};
+  height: 40vh;
+}
 
 .container-pic-1 {
   background-image: url('../images/placeholder-2.png');
-  justify-content: flex-end;
   padding: 0 10px 10px 5px;
   background-repeat: no-repeat;
-  background-size: 90% 120%;
+  background-size: 100% 120%;
   background-position: center;
-  height: 25vh;
   width: 100vw;
   position: relative;
   align-items: flex-end;
@@ -168,6 +192,7 @@ body {
   padding: 0.7rem 1.5rem 0.7rem 1.5rem;
   margin: 1rem 0 1rem 0;
   font-size: 1.4rem;
+  background-color: $primary-black;
 }
 
 .p-project {
@@ -182,20 +207,20 @@ body {
 
 .div-pic {
   font-style: 'Muli';
-  font-weight: bold;
-  font-size: 2rem;
-  padding: 0.5rem;
+  font-weight: thin;
+  font-size: 1.5rem;
+  padding: 0.3rem;
   background-color: rgba(250, 250, 250, 0.4);
   border-style: solid;
-  border-width: 4px;
+  border-width: 1px;
   border-color: #212121;
   display: inline-block;
   margin-right: 1rem;
-  
+
 }
 
 .div-pic:hover {
-  background-color:rgba(250, 250, 250, 1);
+  background-color: rgba(250, 250, 250, 1);
   transition-duration: .4s;
 }
 
@@ -233,13 +258,6 @@ body {
     margin-top: 1.3rem;
     color: $primary-text-ligt;
     margin-bottom: 1.3rem;
-  }
-
-  .p-who {
-    font-size: 0.8rem;
-    letter-spacing: 0.5px;
-    padding-bottom: 0.6rem;
-    line-height: 1.4;
   }
 
   .contact-box > i {
