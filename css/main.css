@@ -99,7 +99,7 @@ body {
 
 .container-pic-1 {
   background-image: url("../images/placeholder-2.png");
-  justify-content: space-between;
+  justify-content: flex-end;
   padding: 0 10px 10px 5px;
   background-repeat: no-repeat;
   background-size: 90% 120%;
@@ -107,12 +107,12 @@ body {
   height: 25vh;
   width: 100vw;
   position: relative;
-  justify-content: space-between;
-  align-items: center; }
+  align-items: flex-end; }
 
 .title-project {
   padding: 0.7rem 1.5rem 0.7rem 1.5rem;
-  font-size: 1.1rem; }
+  margin: 1rem 0 1rem 0;
+  font-size: 1.4rem; }
 
 .p-project {
   font-weight: bold;
@@ -131,7 +131,12 @@ body {
   border-style: solid;
   border-width: 4px;
   border-color: #212121;
-  display: inline-block; }
+  display: inline-block;
+  margin-right: 1rem; }
+
+.div-pic:hover {
+  background-color: #fafafa;
+  transition-duration: .4s; }
 
 .div-pic-2 {
   top: 4.5rem; }
