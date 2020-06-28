@@ -224,6 +224,15 @@ body {
 .link-articles > a {
   color: #fafafa; }
 
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: #212121;
+  margin-top: 1.5rem; }
+
+.footer > span {
+  color: #fafafa; }
+
 /* Mobile-dev */
 @media (max-width: 375px) {
   .container-hero {

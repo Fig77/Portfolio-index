@@ -301,6 +301,17 @@ body {
   color: $primary-white;
 }
 
+.footer {
+  width: 100vw;
+  height: 100px;
+  background-color: $primary-black;
+  margin-top: 1.5rem;
+}
+
+.footer > span {
+  color: $primary-white;
+}
+
 /* Mobile-dev */
 
 @media (max-width: 375px) {
