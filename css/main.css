@@ -170,6 +170,29 @@ body {
 .div-pic-2 {
   top: 4.5rem; }
 
+/* Latest Article */
+.latest-article {
+  border-top-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.3);
+  border-width: thin;
+  margin-top: 1.4rem;
+  padding: 1rem; }
+
+.latest-article > h1 {
+  font-size: 1.3rem; }
+
+.article-title {
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 0; }
+
+.article-1 {
+  height: 35vh;
+  width: 80vw;
+  background-image: url("../images/latest-a.png");
+  background-repeat: no-repeat;
+  background-size: fit;
+  margin-top: 0.5rem; }
+
 /* Mobile-dev */
 @media (max-width: 375px) {
   .container-hero {
