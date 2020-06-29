@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <title>Me(dot)something</title>
+  <title>freedev</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -11,87 +11,102 @@
   <link href="https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,700;1,200;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://use.fontawesome.com/4c40747703.js"></script>
 </head>
 
 <body>
-  <header class='header d-flex flex-column justify-c-center align-i-center'>
-    <div>
-      <h1 class='h1 typing'>$ Facundo Iglesias</h1>
+  <div class='container-hero d-flex flex-column justify-c-center'>
+    <header class='header d-flex flex-column flex-grow-0 justify-c-center align-i-center'>
+      <h1 class='header-test d-flex justify-c-center flex-grow-0'><span class='span-h1-header'>HTML/CSS</span> &nbsp;|&nbsp; JavaScript &nbsp;|&nbsp; <span class='span-h1-header'>Ruby on Rails</span>&nbsp;|&nbsp; React &nbsp;|&nbsp; <span class='span-h1-header'>C++</span></h1>
+    </header>
+    <div class="container">
+      <a href="#">
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+        <div class="chevron"></div>
+      </a>
     </div>
-    <h2 class='text-focus-in'>Software developer</h2>
-    <p class='text-focus-in'>HTML/CSS &#9702; Ruby &#9702; Rails &#9702; C++ &#9702; JavaScript </p>
-    <a href='#projects' class='span-arrow slide-in-bottom'>&#10095;</a>
-  </header>
-  <main class='grid-template'>
-    <div class='col-12 intro' id='projects'>
-      <h1 class='h1'>Hello there!</h1>
-      <p class='p'>I'm a 25 years old software developer based in Argentina with a self-learning complex and a delayed 'I actually want to just write code' epihany. Check my work or contact me if you want to work with me, or just say hi !</p>
-      <ul class='d-flex'>
-        <li class='margin-r-3 li-contact'><a href='https://www.linkedin.com/in/figlesias/'><img src="https://img.icons8.com/ios-filled/50/000000/linkedin.png" /></a></li>
-        <li class='margin-r-3 li-contact'><a href='https://github.com/Fig77/'><img src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a></li>
-        <li class='margin-r-3 li-contact'><a href='https://twitter.com/Fig_77'><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png" /></a></li>
-      </ul>
-    </div>
-    <div class='col-12 d-flex flex-column wrap margin-t-1'>
-      <div class='project-box d-flex flex-column project-1'>
-        <h1 class='project-class d-flex justify-c-center'>Ruby on Rails</h1>
-        <h2 class='project-title d-flex justify-c-center'>Article-app</h2>
-        <div class='project-description d-flex flex-column'>
-          <p>Web application will let you read articles without an account. After creating one you can post them and vote them.
-            <div class='d-flex div-links'>
-              <a class='link' href='https://articles-posting.herokuapp.com/'>Live</a>
-              <a class='link' href='https://github.com/Fig77/RoR-Capston-project/tree/developer-feature'>Github Repo</a>
-            </div>
+  </div>
+  <main>
+    <sectino class='section-who d-flex flex-column'>
+      <h1 class='h1-who'>Hello there</h1>
+      <p class='p-who'>I am a 25 years old software developer based in Argentina. I have been inclined to self-learning over a vast arrays of things since I was very young. Contact me for any inquiries, or if you just want to say hi !</p>
+      <div class='contact-box d-flex'>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"><a href=#></a></i>
+      </div>
+    </sectino>
+    <section class='section-projects d-flex flex-column justify-c-center'>
+      <h2 class='title-project d-flex justify-c-center primary-light'><span class='primary-white bold'>Bootstrap</span>&nbsp;/&nbsp;<span class='primary-white'>HTML</span></h2>
+      <div class='d-flex justify-c-center container-project'>
+        <div class='container-pic d-flex justify-c-center'>
         </div>
       </div>
-      <div class='project-box d-flex flex-column project-2'>
-        <h1 class='project-class d-flex justify-c-center'>HTML/Bootstrap</h1>
-        <h2 class='project-title d-flex justify-c-center'>News Website</h2>
-        <div class='project-description d-flex flex-column'>
-          <p>Front-end project, aiming to build the index page of a news website, using bootstrap / CSS.</p>
-          <div class='d-flex div-links'>
-            <a class='link' href='https://github.com/Fig77/using-boostrap'>Live</a>
-            <a class='link' href='https://github.com/Fig77/using-boostrap'>Github Repo</a>
-          </div>
+      <div class='d-flex project-description flex-column'>
+        <p class='text-disc-1 bold'>
+          HTML/CSS project about using bootstrap along with some raw css to impement styling, based on a news website.
+        </p>
+      </div>
+      <div class='d-flex justify-c-center'>
+        <div class='div-pic'>
+          <a href='#'>Live</a>
+        </div>
+        <div class='div-pic div-pic-2'>
+          <a href='#'>Repo</a>
         </div>
       </div>
-      <div class='project-box d-flex flex-column project-3'>
-        <h1 class='project-class d-flex justify-c-center'>Ruby</h1>
-        <h2 class='project-title d-flex justify-c-center'>MMM Game</h2>
-        <div class='project-description d-flex flex-column'>
-          <p>M*M*M is an abstract board game made in console, where you define a M * M board and need to place M consecutive pieces to win.</p>
-          <div class='d-flex div-links'>
-            <a class='link' href='https://github.com/Fig77/MNK-condition-test'>Github Repo</a>
-          </div>
+      <!-- Project  -->
+      <h2 class='title-project d-flex justify-c-center primary-light'><span class='primary-white bold'>Ruby</span>&nbsp;on&nbsp;<span class='primary-white'>Rails</span></h2>
+      <div class='d-flex justify-c-center container-project'>
+        <div class='container-pic container-pic-2 d-flex justify-c-center'>
         </div>
       </div>
-    </div>
+      <div class='d-flex project-description flex-column'>
+        <p class='text-disc-1 bold'>
+          Article posting web app concept, developed with Ruby on Rails and raw html/css
+        </p>
+      </div>
+      <div class='d-flex justify-c-center'>
+        <div class='div-pic'>
+          <a href='#'>Live</a>
+        </div>
+        <div class='div-pic div-pic-2'>
+          <a href='#'>Repo</a>
+        </div>
+      </div>
+      <!-- Project  -->
+      <h2 class='title-project d-flex justify-c-center primary-light'><span class='primary-white bold'>Java</span><span class='primary-white'>Script</span></h2>
+      <div class='d-flex justify-c-center container-project'>
+        <div class='container-pic container-pic-3 d-flex justify-c-center'>
+        </div>
+      </div>
+      <div class='d-flex project-description flex-column'>
+        <p class='text-disc-1 bold'>
+          ARPG concept game, playeble online / with a browser. Developed with Phaser 3 and JavaScript.
+        </p>
+      </div>
+      <div class='d-flex justify-c-center'>
+        <div class='div-pic'>
+          <a href='#'>Live</a>
+        </div>
+        <div class='div-pic div-pic-2'>
+          <a href='#'>Repo</a>
+        </div>
+      </div>
+    </section>
+    <article class='latest-article d-flex flex-column align-i-center'>
+      <h1 class='d-flex justify-c-center align-i-center primary-light bold'>Latest article</h1>
+      <div class='article-1 shadow-style-1'>
+        <h2 class='article-title'><a class='d-flex flex-column'><span class='d-flex justify-c-center bold primary-black'>Arrays in Ruby</span><span class='d-flex justify-c-center bold primary-black'>Benefits and Costs to Use Them </span></a></h2>
+      </div>
+      <div class='link-articles shadow-style-0'><a>More Articles</a></div>
+    </article>
   </main>
-  <section class='banner'>
-  </section>
-  <section>
-  </section>
-  <footer class='grid-template'>
-    <div class='col-5 col-sm-12 credit d-flex justify-c-center align-i-center'>
-      <span>Made with HTML/CSS by <a href='#'>@Fig77</a></span>
-    </div>
-    <div class='d-flex col-sm-12 thanks'>
-      <ul class='ul-footer d-flex align-i-center'>
-        <li>Resources: </li>
-        <li><a href='https://icons8.com/icon/7656/c-plus-plus'>Icons8</a></li>
-        <li><a href='https://www.pexels.com/es-es/royalty-free-images/'>Pexels</a></li>
-      </ul>
-    </div>
-    <div class='d-flex col-sm-12 thanks'>
-      <ul class='ul-footer ul-f-2 d-flex'>
-        <li>Contact: </li>
-        <li><a href='https://github.com/Fig77'>Github</a></li>
-        <li><a href='https://www.linkedin.com/in/figlesias/'>Linkedin</a></li>
-        <li><a href='twitter.com/Fig_77'>Twitter</a></li>
-        <li>Email: </li>
-        <li><a href='#'>fig@gmail.com</a></li>
-      </ul>
-    </div>
+  <footer class='footer d-flex justify-c-center align-i-center'>
+    <span>Made by @Facundo Iglesias</span>
   </footer>
 </body>
 
