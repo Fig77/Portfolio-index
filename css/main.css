@@ -335,9 +335,6 @@ body {
   .title-project {
     font-size: 1.9rem; }
 
-  .container-project {
-    height: 55vh; }
-
   .container-pic {
     background-size: 50% 100%; }
 
@@ -360,5 +357,8 @@ body {
 
   .link-articles {
     padding: 1.2rem 1.2rem 1.2rem 1.2rem; } }
+@media only screen and (min-width: 1050px) {
+  .container-project {
+    height: 55vh; } }
 
 /*# sourceMappingURL=main.css.map */
