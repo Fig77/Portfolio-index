@@ -309,7 +309,7 @@ body {
   100% {
     opacity: 0;
     transform: translateY(4.8rem) scale(0.5); } }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 608px) {
   .container {
     display: flex; }
 
@@ -334,6 +334,9 @@ body {
 @media only screen and (min-width: 1020px) {
   .title-project {
     font-size: 1.9rem; }
+
+  .container-project {
+    height: 55vh; }
 
   .container-pic {
     background-size: 50% 100%; }
