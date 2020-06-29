@@ -409,7 +409,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 608px) {
   .container {
     display: flex;
   }
@@ -436,6 +436,7 @@ body {
 
   .contact-box > i {
     font-size: 4rem;
+    margin-right: 1.5rem;
   }
 }
 
@@ -445,6 +446,32 @@ body {
   }
   
   .container-pic {
-    background-size: 63% 100%;
+    background-size: 50% 100%;
+  }
+  
+  .project-description > p {
+    font-size: 1.5rem;
+  }
+  
+  .div-pic {
+    font-size: 2.5rem;
+    padding: 1.2rem;
+  }
+  
+  .latest-article > h1 {
+    font-size: 2.4rem;
+  }
+  
+  .article-title {
+    font-size: 1.6rem;
+  }
+  
+  .article-1 {
+    height: 45vh;
+    width: 50vw;
+  }
+  
+  .link-articles {
+    padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   }
 }
