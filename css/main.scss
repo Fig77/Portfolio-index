@@ -92,6 +92,7 @@ $bg-height: 100px;
 body {
   font-family: 'Exo', 'Ubuntu', sans-serif;
   background-color: #fafafa;
+  overflow-x: hidden;
 }
 
 .nav-bar {
@@ -412,7 +413,7 @@ body {
   .container {
     display: flex;
   }
-  
+
   .container-hero {
     height: 100vh;
   }
@@ -423,5 +424,27 @@ body {
 
   .header::before {
     font-size: 6.9rem;
+  }
+
+  .h1-who {
+    font-size: 3.5rem;
+  }
+
+  .p-who {
+    font-size: 2rem;
+  }
+
+  .contact-box > i {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+  .title-project {
+    font-size: 1.9rem;
+  }
+  
+  .container-pic {
+    background-size: 63% 100%;
   }
 }
