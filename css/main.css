@@ -116,10 +116,6 @@ body {
   padding: 0.5rem;
   position: relative; }
 
-.contact-box > i {
-  padding-right: 0.4rem;
-  align-items: baseline; }
-
 .project-description {
   margin-top: 1.3rem;
   padding: 1rem;
@@ -133,7 +129,7 @@ body {
 
 /* PROJECTS SECTION */
 .portfolio-header-title {
-  font-size: 1.5rem;
+  font-size: 1.9rem;
   color: #212121;
   font-weight: bolder;
   padding: 1rem; }
@@ -265,7 +261,7 @@ body {
 .contact-box > i {
   padding-right: 0.9rem;
   padding-bottom: 0.8rem;
-  font-size: 1.6rem; }
+  font-size: 2.3rem; }
 
 /* Arrow Down */
 .container {
