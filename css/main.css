@@ -46,6 +46,9 @@
 .bold {
   font-weight: bold; }
 
+.m-top-0 {
+  margin-top: 0 !important; }
+
 body {
   font-family: 'Exo', 'Ubuntu', sans-serif;
   background-color: #fafafa;
@@ -123,12 +126,18 @@ body {
   align-items: center; }
 
 .p-who {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   letter-spacing: 0.5px;
   padding-bottom: 0.6rem;
   line-height: 1.4; }
 
 /* PROJECTS SECTION */
+.portfolio-header-title {
+  font-size: 1.5rem;
+  color: #212121;
+  font-weight: bolder;
+  padding: 1rem; }
+
 .container-project {
   height: 40vh; }
 
@@ -219,7 +228,7 @@ body {
   background-color: rgba(33, 33, 33, 0.9);
   border-style: solid;
   border-width: 1px;
-  border-color: #fafafa;
+  border-color: #212121;
   display: inline-block;
   margin-right: 1rem; }
 
@@ -247,7 +256,7 @@ body {
   border-bottom-color: rgba(0, 0, 0, 0.2); }
 
 .h1-who {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   margin-top: 1.3rem;
   color: #999;
@@ -336,7 +345,7 @@ body {
     font-size: 1.9rem; }
 
   .container-pic {
-    background-size: 50% 100%; }
+    background-size: 44% 100%; }
 
   .project-description > p {
     font-size: 1.5rem; }
@@ -353,7 +362,7 @@ body {
 
   .article-1 {
     height: 45vh;
-    width: 50vw; }
+    width: 34vw; }
 
   .link-articles {
     padding: 1.2rem 1.2rem 1.2rem 1.2rem; } }
