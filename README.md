@@ -60,9 +60,9 @@ Here you will find an index that will take you through most of my projects, chal
 | [Tic-Tac-Toe on JavaScript.](https://github.com/Fig77/tic-tac-toejs)  | Tic Tac Toe game that works in the browser. 👥|
 | [Restaurant Page.](https://github.com/Fig77/Food) | Simple restaurant WebApp. 👤|
 | [To Do list.](https://github.com/Fig77/tic-tac-toejs)  | Tic Tac Toe game that works in the browser. 👥|
-
-
-https://github.com/HADDADSOHAIB/todo
+| [Weather App.](https://github.com/Fig77/Food) | WeatherApp that works with Open Weather API 👤|
+| [Jest Testing.](https://github.com/Fig77/Food) | JEST testing practice 👥|
+| [Phaser Game](https://github.com/Fig77/Food) | ARPG concept made with Phaser 3 and JavaScript 👤|
 
 ---
 
