@@ -24,6 +24,12 @@
   0% {
     background-position: 100vw 100px; } }
 /* Main styles */
+.grow-0-important {
+  flex-grow: 0.3 !important; }
+
+.p-1 {
+  padding: 1rem; }
+
 .primary-dark {
   color: #7a7a7a; }
 
@@ -110,6 +116,9 @@ body {
   font-size: 0.8rem; }
 
 .container-hero {
+  height: 100vh; }
+
+.parent-project {
   height: 100vh; }
 
 .contact-box {

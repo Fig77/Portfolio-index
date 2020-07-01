@@ -60,6 +60,14 @@ $bg-height: 100px;
 
 /* Main styles */
 
+.grow-0-important {
+  flex-grow: 0.3 !important;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
 .primary-dark {
   color: $primary-text-dark;
 }
@@ -167,6 +175,7 @@ body {
 }
 
 .parent-project {
+  height: 100vh;
 }
 
 
