@@ -10,7 +10,7 @@
 
 Here you will find an index that will take you through most of my projects, challenges, articles, and other related things that I might have worked on or will work in the future.
 
-* [Live](TBA)
+* [Live](#https://fig77.github.io/Portfolio-index/)
 * [Contact](#contact)
 
 ### Useful for reading
