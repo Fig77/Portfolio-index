@@ -39,6 +39,9 @@
 .primary-white {
   color: #fafafa; }
 
+.inherit-color {
+  color: inherit; }
+
 .shadow-style-0 {
   -webkit-box-shadow: 10px 11px 15px -6px rgba(33, 33, 33, 0.8);
   -moz-box-shadow: 10px 11px 15px -6px rgba(33, 33, 33, 0.8);
@@ -279,7 +282,7 @@ body {
   color: #999;
   margin-bottom: 1.3rem; }
 
-.contact-box > i {
+.contact-box > a > i {
   padding-right: 0.9rem;
   padding-bottom: 0.8rem;
   font-size: 2.3rem; }
@@ -355,7 +358,7 @@ body {
     font-size: 2rem;
     padding: 2rem; }
 
-  .contact-box > i {
+  .contact-box a > i {
     font-size: 3rem;
     margin-right: 1rem; } }
 @media only screen and (min-width: 1020px) {
