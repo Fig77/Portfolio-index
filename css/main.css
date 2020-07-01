@@ -158,8 +158,7 @@ body {
 .title-project {
   padding: 0.7rem 1.5rem 0.7rem 1.5rem;
   margin: 1rem 0 1rem 0;
-  font-size: 1.4rem;
-  background-color: #212121; }
+  font-size: 1.4rem; }
 
 .p-project {
   font-weight: bold;
@@ -334,8 +333,8 @@ body {
     font-size: 2rem; }
 
   .contact-box > i {
-    font-size: 4rem;
-    margin-right: 1.5rem; } }
+    font-size: 3rem;
+    margin-right: 1rem; } }
 @media only screen and (min-width: 1020px) {
   .title-project {
     font-size: 1.9rem; }
