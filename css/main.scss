@@ -172,9 +172,12 @@ body {
 }
 
 .project-description {
-  margin-top: 1.3rem;
   padding: 1rem;
   align-items: center;
+}
+
+.parent-project {
+  justify-content: space-between;
 }
 
 .p-who {
@@ -187,6 +190,7 @@ body {
 /* PROJECTS SECTION */
 
 .portfolio-header {
+  height: 25vh;
 }
 
 .portfolio-header-title {
@@ -457,7 +461,7 @@ body {
 
 
   .container-pic {
-    background-size: 44% 100%;
+    background-size: 60% 100%;
   }
 
   .project-description > p {
@@ -491,5 +495,6 @@ body {
 @media only screen and (min-width: 1250px) {
   .container-project {
     height: 55vh;
+    width: 55vw;
   }
 }

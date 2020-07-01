@@ -117,9 +117,11 @@ body {
   position: relative; }
 
 .project-description {
-  margin-top: 1.3rem;
   padding: 1rem;
   align-items: center; }
+
+.parent-project {
+  justify-content: space-between; }
 
 .p-who {
   font-size: 1.1rem;
@@ -128,6 +130,9 @@ body {
   line-height: 1.4; }
 
 /* PROJECTS SECTION */
+.portfolio-header {
+  height: 25vh; }
+
 .portfolio-header-title {
   font-size: 1.9rem;
   color: #212121;
@@ -340,7 +345,7 @@ body {
     font-size: 1.9rem; }
 
   .container-pic {
-    background-size: 44% 100%; }
+    background-size: 60% 100%; }
 
   .project-description > p {
     font-size: 1.5rem; }
@@ -363,6 +368,7 @@ body {
     padding: 1.2rem 1.2rem 1.2rem 1.2rem; } }
 @media only screen and (min-width: 1250px) {
   .container-project {
-    height: 55vh; } }
+    height: 55vh;
+    width: 55vw; } }
 
 /*# sourceMappingURL=main.css.map */
