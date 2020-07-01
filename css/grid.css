@@ -584,7 +584,10 @@
     grid-row-start: 12; }
 
   .row-span-lg-12 {
-    grid-row: span 12; } }
+    grid-row: span 12; }
+
+  .flex-column-sm {
+    flex-direction: column; } }
 @media (max-width: 768px) {
   .col-md-1 {
     grid-column: span 1; }

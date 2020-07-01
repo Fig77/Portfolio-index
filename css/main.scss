@@ -176,8 +176,8 @@ body {
 
 .container-hero {
   height: 100vh;
-  min-height: 555px; 
-  
+  min-height: 555px;
+
 }
 
 .parent-project {
@@ -232,14 +232,16 @@ body {
 
 .container-project {
   height: 40vh;
+
 }
 
 .container-pic {
   background-image: url('../images/placeholder-2.png');
   padding: 0 10px 10px 5px;
   background-repeat: no-repeat;
-  background-size: 100% 120%;
   background-position: center;
+  background-size: cover;
+  background-size: 90% 100%;
   width: 100vw;
   position: relative;
   align-items: flex-end;
@@ -247,7 +249,7 @@ body {
 
 .container-pic-0 {
   background-image: url('../images/portfolio-git.png');
-  //background-size: 90% 100%;
+  background-size: 84% 100%;
 }
 
 .container-pic-2 {
@@ -487,7 +489,7 @@ body {
   }
 
   .container-pic {
-    background-size: 60% 100%;
+    //background-size: 60% 100%;
   }
 
   .project-description > p {
