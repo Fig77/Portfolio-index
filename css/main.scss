@@ -166,13 +166,17 @@ body {
   height: 100vh;
 }
 
+.parent-project {
+}
+
+
 .contact-box {
   padding: 0.5rem;
   position: relative;
 }
 
 .project-description {
-  padding: 1rem;
+  padding: 1.5rem; 
   align-items: center;
 }
 
@@ -190,7 +194,8 @@ body {
 /* PROJECTS SECTION */
 
 .portfolio-header {
-  height: 25vh;
+  height: 15vh;
+  padding: 1.5rem 0 1.5rem 0;
 }
 
 .portfolio-header-title {
@@ -216,6 +221,11 @@ body {
   width: 100vw;
   position: relative;
   align-items: flex-end;
+}
+
+.container-pic-0 {
+  background-image: url('../images/portfolio-git.png');
+  //background-size: 90% 100%;
 }
 
 .container-pic-2 {
@@ -388,7 +398,7 @@ body {
   top: 0;
   height: 100%;
   width: 50%;
-  background: #2c3e50;
+  background: $primary-text-dark;
 }
 
 .chevron:before {
