@@ -176,10 +176,13 @@ body {
 
 .container-hero {
   height: 100vh;
+  min-height: 555px; 
+  
 }
 
 .parent-project {
   height: 100vh;
+  min-height: 550px;
 }
 
 
@@ -189,7 +192,7 @@ body {
 }
 
 .project-description {
-  padding: 1.5rem; 
+  padding: 1.5rem;
   align-items: center;
 }
 
@@ -208,6 +211,7 @@ body {
 
 .portfolio-header {
   height: 15vh;
+  min-height: 250px;
   padding: 1.5rem 0 1.5rem 0;
 }
 
@@ -221,7 +225,7 @@ body {
   color: $primary-black;
   font-weight: bolder;
   padding: 1rem;
-  
+
 }
 
 .section-projects {}
@@ -357,7 +361,7 @@ body {
 }
 
 .container-hero {
-  height: 220px;
+  //height: 220px;
   padding: 0;
   padding-bottom: 0.3rem;
 }
@@ -384,13 +388,6 @@ body {
 }
 
 /* Arrow Down */
-
-.container {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
 
 .chevron {
   position: absolute;
@@ -457,7 +454,7 @@ body {
   }
 
   .container-hero {
-    height: 100vh;
+    //height: 100vh;
   }
 
   .header-test {
@@ -488,7 +485,6 @@ body {
     font-size: 2.5rem;
     padding: 1rem;
   }
-
 
   .container-pic {
     background-size: 60% 100%;
@@ -521,7 +517,6 @@ body {
     padding: 1.2rem 1.2rem 1.2rem 1.2rem;
   }
 }
-
 
 @media only screen and (min-width: 1250px) {
   .container-project {

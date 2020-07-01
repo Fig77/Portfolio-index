@@ -119,10 +119,12 @@ body {
   font-size: 0.8rem; }
 
 .container-hero {
-  height: 100vh; }
+  height: 100vh;
+  min-height: 555px; }
 
 .parent-project {
-  height: 100vh; }
+  height: 100vh;
+  min-height: 550px; }
 
 .contact-box {
   padding: 0.5rem;
@@ -143,6 +145,8 @@ body {
 
 /* PROJECTS SECTION */
 .portfolio-header {
+  height: 15vh;
+  min-height: 250px;
   padding: 1.5rem 0 1.5rem 0; }
 
 .portfolio-header > span {
@@ -264,7 +268,6 @@ body {
   color: #fafafa; }
 
 .container-hero {
-  height: 220px;
   padding: 0;
   padding-bottom: 0.3rem; }
 
@@ -287,12 +290,6 @@ body {
   font-size: 2.3rem; }
 
 /* Arrow Down */
-.container {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  width: 100%; }
-
 .chevron {
   position: absolute;
   width: 2.4rem;
@@ -340,9 +337,6 @@ body {
 @media only screen and (min-width: 608px) {
   .container {
     display: flex; }
-
-  .container-hero {
-    height: 100vh; }
 
   .header-test {
     font-size: 2.2rem; }
