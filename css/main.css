@@ -143,8 +143,12 @@ body {
   height: 15vh;
   padding: 1.5rem 0 1.5rem 0; }
 
+.portfolio-header > span {
+  font-size: 1.8rem;
+  padding: 1rem; }
+
 .portfolio-header-title {
-  font-size: 1.9rem;
+  font-size: 3rem;
   color: #212121;
   font-weight: bolder;
   padding: 1rem; }
@@ -348,24 +352,27 @@ body {
     font-size: 3.5rem; }
 
   .p-who {
-    font-size: 2rem; }
+    font-size: 2rem;
+    padding: 2rem; }
 
   .contact-box > i {
     font-size: 3rem;
     margin-right: 1rem; } }
 @media only screen and (min-width: 1020px) {
   .title-project {
-    font-size: 1.9rem; }
+    font-size: 2.5rem;
+    padding: 1rem; }
 
   .container-pic {
     background-size: 60% 100%; }
 
   .project-description > p {
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    padding: 1rem; }
 
   .div-pic {
     font-size: 2.5rem;
-    padding: 1.2rem; }
+    padding: 1rem; }
 
   .latest-article > h1 {
     font-size: 2.4rem; }
