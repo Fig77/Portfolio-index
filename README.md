@@ -11,7 +11,7 @@
 Here you will find an index that will take you through most of my projects, challenges, articles, and other related things that I might have worked on or will work in the future.
 
 * [Live](https://fig77.github.io/Portfolio-index/)
-* [Contact](#contact)
+* [Contact](#contact-📱)
 
 ### Useful for reading
  * Along with the short description of projects, you will find two small icons.
@@ -24,7 +24,7 @@ Here you will find an index that will take you through most of my projects, chal
 
 ----
 
-📁[HTML/CSS](#📂htmlcss) **|** 📁[Ruby](#📂ruby) **|** 📁[JavaScript](#📂javascript) **|** 📁[Ruby on Rails](#📂ruby-on-rails) **|** 📁 [Articles](#📂articles)
+📁[HTML/CSS](#📂htmlcss) **|** 📁[Ruby](#📂ruby) **|** 📁[JavaScript](#📂javascript) **|** 📁[Ruby on Rails](#📂ruby-on-rails) **|** 📁 [Articles](#📂articles-📖)
 
 ---
 
