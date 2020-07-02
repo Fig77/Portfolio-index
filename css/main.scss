@@ -406,44 +406,22 @@ body {
   .container {
     display: flex;
   }
-
-  .container-hero {
-    //height: 100vh;
-  }
-
+  
   .header-test {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
   }
 
   .header::before {
-    font-size: 6.9rem;
+    font-size: 4rem;
   }
 
   .contact-box a > i {
-    font-size: 3rem;
+    font-size: 2rem;
     margin-right: 1rem;
   }
 }
 
 @media only screen and (min-width: 1020px) {
-  .title-project {
-    font-size: 2.5rem;
-    padding: 1rem;
-  }
-
-  .container-pic {
-    background-size: 55% 100%;
-  }
-
-  .project-description > p {
-    font-size: 1.5rem;
-    padding: 1rem;
-  }
-
-  .div-pic {
-    font-size: 3.5rem;
-    padding: 1rem;
-  }
 
   .latest-article > h1 {
     font-size: 2.4rem;
