@@ -175,15 +175,14 @@ body {
 }
 
 .container-hero {
-  min-height: 655px;
-
+  min-height: 755px;
 }
 
 .parent-project {
   height: 100vh;
   min-height: 550px;
+  justify-content: space-between;
 }
-
 
 .contact-box {
   padding: 0.5rem;
@@ -193,10 +192,6 @@ body {
 .project-description {
   padding: 1.5rem;
   align-items: center;
-}
-
-.parent-project {
-  justify-content: space-between;
 }
 
 .p-who {
@@ -227,11 +222,8 @@ body {
 
 }
 
-.section-projects {}
-
 .container-project {
   height: 40vh;
-
 }
 
 .container-pic {
@@ -292,12 +284,35 @@ body {
 }
 
 .div-pic:hover {
-  background-color: rgba(250, 250, 250, 1);
+  background-color: rgba(33, 33, 33, 0.9);
+  border-style: solid;
   transition-duration: .4s;
 }
 
 .div-pic-2 {
   top: 4.5rem;
+}
+
+/* img fluid */
+
+.container-img {
+  
+}
+
+.img-f {
+  width: 100%;
+}
+
+.p-descripcion {
+  flex-grow: 2;
+}
+
+.intro-project {
+  padding: 1rem;
+ 
+}
+.container-text-project {
+  padding: 1rem;
 }
 
 /* Latest Article */
@@ -308,6 +323,7 @@ body {
   border-width: thin;
   margin-top: 1.4rem;
   padding: 1rem;
+  min-height: 400px;
 }
 
 .latest-article > h1 {
@@ -327,6 +343,7 @@ body {
 .article-1 {
   height: 35vh;
   width: 80vw;
+  min-height: 250px;
   background-image: url('../images/latest-a.png');
   background-repeat: no-repeat;
   background-size: cover;
@@ -362,7 +379,6 @@ body {
 }
 
 .container-hero {
-  //height: 220px;
   padding: 0;
   padding-bottom: 0.3rem;
 }
@@ -497,7 +513,7 @@ body {
   }
 
   .div-pic {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding: 1rem;
   }
 
@@ -512,6 +528,7 @@ body {
   .article-1 {
     height: 45vh;
     width: 34vw;
+    min-width: 450px;
   }
 
   .link-articles {

@@ -119,11 +119,12 @@ body {
   font-size: 0.8rem; }
 
 .container-hero {
-  min-height: 655px; }
+  min-height: 755px; }
 
 .parent-project {
   height: 100vh;
-  min-height: 550px; }
+  min-height: 550px;
+  justify-content: space-between; }
 
 .contact-box {
   padding: 0.5rem;
@@ -132,9 +133,6 @@ body {
 .project-description {
   padding: 1.5rem;
   align-items: center; }
-
-.parent-project {
-  justify-content: space-between; }
 
 .p-who {
   font-size: 1.1rem;
@@ -210,11 +208,25 @@ body {
   margin-right: 1rem; }
 
 .div-pic:hover {
-  background-color: #fafafa;
+  background-color: rgba(33, 33, 33, 0.9);
+  border-style: solid;
   transition-duration: .4s; }
 
 .div-pic-2 {
   top: 4.5rem; }
+
+/* img fluid */
+.img-f {
+  width: 100%; }
+
+.p-descripcion {
+  flex-grow: 2; }
+
+.intro-project {
+  padding: 1rem; }
+
+.container-text-project {
+  padding: 1rem; }
 
 /* Latest Article */
 .latest-article {
@@ -222,7 +234,8 @@ body {
   border-top-color: rgba(0, 0, 0, 0.3);
   border-width: thin;
   margin-top: 1.4rem;
-  padding: 1rem; }
+  padding: 1rem;
+  min-height: 400px; }
 
 .latest-article > h1 {
   font-size: 1.4rem;
@@ -239,6 +252,7 @@ body {
 .article-1 {
   height: 35vh;
   width: 80vw;
+  min-height: 250px;
   background-image: url("../images/latest-a.png");
   background-repeat: no-repeat;
   background-size: cover; }
@@ -368,7 +382,7 @@ body {
     padding: 1rem; }
 
   .div-pic {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     padding: 1rem; }
 
   .latest-article > h1 {
@@ -379,7 +393,8 @@ body {
 
   .article-1 {
     height: 45vh;
-    width: 34vw; }
+    width: 34vw;
+    min-width: 450px; }
 
   .link-articles {
     padding: 1.2rem 1.2rem 1.2rem 1.2rem; } }
