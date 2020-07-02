@@ -68,6 +68,18 @@ $bg-height: 100px;
   padding: 1rem;
 }
 
+.p-2 {
+  padding: 2rem;
+}
+
+.m-t-1 {
+  margin-top: 1rem;
+}
+
+.m-t-2 {
+  margin-top: 2rem;
+}
+
 .primary-dark {
   color: $primary-text-dark;
 }
@@ -78,6 +90,13 @@ $bg-height: 100px;
 
 .primary-white {
   color: $primary-white;
+}
+
+.border-s-dark {
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color: $primary-text-dark;
+  border-width: thin;
 }
 
 .inherit-color {
@@ -309,8 +328,9 @@ body {
 
 .intro-project {
   padding: 1rem;
- 
 }
+
+
 .container-text-project {
   padding: 1rem;
 }
