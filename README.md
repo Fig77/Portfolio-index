@@ -90,7 +90,8 @@ Here you will find an index that will take you through most of my projects, chal
 ## 📱Contact 
 
 *Email*: fig.igle@gmail.com
-*Linkedin*:
+
+*Linkedin*: https://www.linkedin.com/in/figlesias/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
