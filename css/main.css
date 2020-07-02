@@ -119,8 +119,7 @@ body {
   font-size: 0.8rem; }
 
 .container-hero {
-  height: 100vh;
-  min-height: 555px; }
+  min-height: 655px; }
 
 .parent-project {
   height: 100vh;
@@ -360,6 +359,9 @@ body {
   .title-project {
     font-size: 2.5rem;
     padding: 1rem; }
+
+  .container-pic {
+    background-size: 55% 100%; }
 
   .project-description > p {
     font-size: 1.5rem;

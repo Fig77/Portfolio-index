@@ -225,7 +225,7 @@
 .row-span-12 {
   grid-row: span 12; }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   .col-xl-1 {
     grid-column: span 1; }
 
@@ -405,7 +405,7 @@
 
   .row-span-xl-12 {
     grid-row: span 12; } }
-@media (max-width: 992px) {
+@media (max-width: 1245px) {
   .col-lg-1 {
     grid-column: span 1; }
 
@@ -586,7 +586,7 @@
   .row-span-lg-12 {
     grid-row: span 12; }
 
-  .flex-column-sm {
+  .flex-column-lg {
     flex-direction: column; } }
 @media (max-width: 768px) {
   .col-md-1 {

@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
   @for $i from 1 through 12 {
     .col-xl-#{$i} {
       grid-column: span #{$i}
@@ -63,7 +63,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1245px) {
   @for $i from 1 through 12 {
     .col-lg-#{$i} {
       grid-column: span #{$i};
@@ -86,8 +86,7 @@
     }
 
   }
-
-  .flex-column-sm {
+  .flex-column-lg {
     flex-direction: column;
   }
 }
