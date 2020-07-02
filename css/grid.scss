@@ -89,6 +89,12 @@
   .flex-column-lg {
     flex-direction: column;
   }
+  
+}
+@media (min-width: 770px) {
+.w-50-lg {
+    width: 50vw;
+  }
 }
 
 @media (max-width: 768px) {
@@ -114,7 +120,6 @@
     }
 
   }
-
   .flex-column-md {
     flex-direction: column;
   }
@@ -150,6 +155,9 @@
   .flex-column-sm {
     flex-direction: column;
   }
+  .w-100-sm {
+    width: 100vw;
+  }
 }
 
 @media (max-width: 375px) {
@@ -181,6 +189,9 @@
 
   .flex-column-xs {
     flex-direction: column;
+  }
+  .w-100-xs {
+    width: 100vw;
   }
 }
 
