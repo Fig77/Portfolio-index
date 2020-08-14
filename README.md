@@ -24,7 +24,7 @@ Here you will find an index that will take you through most of my projects, chal
 
 ----
 
-📁[HTML/CSS](#htmlcss) **|** 📁[Ruby](#ruby) **|** 📁[JavaScript](#javascript) **|** 📁[Ruby on Rails](#ruby-on-rails) **|** 📁 [Articles](#articles)
+📁[HTML/CSS](#htmlcss) **|** 📁[Ruby](#ruby) **|** 📁[JavaScript](#javascript) **|** 📁[Ruby on Rails](#ruby-on-rails) **|** 📁 React-Redux(#react-redux) 📁 **|** [Articles](#articles)
 
 ---
 
@@ -78,6 +78,15 @@ Here you will find an index that will take you through most of my projects, chal
 | [Micro reddit](https://github.com/Fig77/micro-reddit-collaborative-project)  | Building a small version of Reddit post-comment functionality. 👥|
 |[Social WebApp](https://github.com/Fig77/ror-social-scaffold)| Implementing some backend over a social network app. 👥|
 |[Article posting WebApp](https://github.com/Fig77/RoR-Capston-project)| WebApp that works for posting and voting on articles. 👤|
+
+---
+
+## 📂React-Redux
+
+| Project | Description |
+| ------------- | ------------- |
+| [Calculator React](https://github.com/Fig77/Calculator-React)  | Online basic calculator, built with React. 👤|
+| [Bookstore](https://github.com/dannisonarias/bookstore)  | WebApp of a personal library that will let you keep track of what are you reading. 👥|
 
 ---
 
