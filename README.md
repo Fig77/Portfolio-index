@@ -24,7 +24,7 @@ Here you will find an index that will take you through most of my projects, chal
 
 ----
 
-📁[HTML/CSS](#htmlcss) **|** 📁[Ruby](#ruby) **|** 📁[JavaScript](#javascript) **|** 📁[Ruby on Rails](#ruby-on-rails) **|** 📁 React-Redux(#react-redux) 📁 **|** [Articles](#articles)
+📁[HTML/CSS](#htmlcss) **|** 📁[Ruby](#ruby) **|** 📁[JavaScript](#javascript) **|** 📁[Ruby on Rails](#ruby-on-rails) **|** 📁[React-Redux](#react-redux) 📁 **|** [Articles](#articles)
 
 ---
 
