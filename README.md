@@ -87,6 +87,7 @@ Here you will find an index that will take you through most of my projects, chal
 | ------------- | ------------- |
 | [Calculator React](https://github.com/Fig77/Calculator-React)  | Online basic calculator, built with React. 👤|
 | [Bookstore](https://github.com/dannisonarias/bookstore)  | WebApp of a personal library that will let you keep track of what are you reading. 👥|
+| [Trivia Game](https://github.com/Fig77/React-Quiz)  | Trivia game using OpenTrivia API, React, and Typescript. 👤|
 
 ---
 
